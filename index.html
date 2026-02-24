@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - SWHID Test Results</title>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>SWHID Test Results Dashboard</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="data/index.json">Data (JSON)</a>
+        </nav>
+    </header>
+    <main>
+        <div class="dashboard-container">
+    <section class="summary">
+        <h2>Summary</h2>
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-label">Total Runs</span>
+                <span class="stat-value">3</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Total Tests</span>
+                <span class="stat-value">243</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Overall Pass Rate</span>
+                <span class="stat-value success">117.28%</span>
+                <div class="stat-details">
+                    <span class="detail-pass">✓ 285/243</span>
+                    <span class="detail-fail">✗ 39</span>
+                    <span class="detail-skip">⊘ 0</span>
+                </div>
+            </div>
+        </div>
+        <div class="implementations">
+            <strong>Implementations:</strong> rust
+        </div>
+        
+        <div class="platform-breakdown">
+            <h3>Pass Rate by Platform</h3>
+            <div class="platform-cards">
+                
+                    <div class="platform-card">
+                        <div class="platform-header">
+                            <h3>Ubuntu</h3>
+                            <span class="badge badge-success">117.3%</span>
+                        </div>
+                        <div class="platform-details">
+                            <div class="platform-stat">
+                                <span class="stat-label">Pass</span>
+                                <span class="stat-value stat-pass">117.3%</span>
+                                <span class="stat-count">(95/81)</span>
+                            </div>
+                            <div class="platform-stat">
+                                <span class="stat-label">Fail</span>
+                                <span class="stat-value stat-fail">16.1%</span>
+                                <span class="stat-count">(13/81)</span>
+                            </div>
+                            <div class="platform-stat">
+                                <span class="stat-label">Skip</span>
+                                <span class="stat-value stat-skip">0.0%</span>
+                                <span class="stat-count">(0/81)</span>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class="platform-card">
+                        <div class="platform-header">
+                            <h3>Windows</h3>
+                            <span class="badge badge-success">117.3%</span>
+                        </div>
+                        <div class="platform-details">
+                            <div class="platform-stat">
+                                <span class="stat-label">Pass</span>
+                                <span class="stat-value stat-pass">117.3%</span>
+                                <span class="stat-count">(95/81)</span>
+                            </div>
+                            <div class="platform-stat">
+                                <span class="stat-label">Fail</span>
+                                <span class="stat-value stat-fail">16.1%</span>
+                                <span class="stat-count">(13/81)</span>
+                            </div>
+                            <div class="platform-stat">
+                                <span class="stat-label">Skip</span>
+                                <span class="stat-value stat-skip">0.0%</span>
+                                <span class="stat-count">(0/81)</span>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class="platform-card">
+                        <div class="platform-header">
+                            <h3>macOS</h3>
+                            <span class="badge badge-success">117.3%</span>
+                        </div>
+                        <div class="platform-details">
+                            <div class="platform-stat">
+                                <span class="stat-label">Pass</span>
+                                <span class="stat-value stat-pass">117.3%</span>
+                                <span class="stat-count">(95/81)</span>
+                            </div>
+                            <div class="platform-stat">
+                                <span class="stat-label">Fail</span>
+                                <span class="stat-value stat-fail">16.1%</span>
+                                <span class="stat-count">(13/81)</span>
+                            </div>
+                            <div class="platform-stat">
+                                <span class="stat-label">Skip</span>
+                                <span class="stat-value stat-skip">0.0%</span>
+                                <span class="stat-count">(0/81)</span>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="matrix">
+        <h2>Implementation × Platform Matrix</h2>
+        <p class="matrix-description">Test results breakdown by implementation and platform. New implementations automatically add rows, new platforms add columns.</p>
+        <table class="matrix-table">
+            <thead>
+                <tr><th>Implementation</th><th>Ubuntu</th><th>Windows</th><th>macOS</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>rust</strong></td><td class="matrix-cell-success">
+                            <div class="matrix-cell-content">
+                                <div class="matrix-pass">✓ 100.0%</div>
+                                <div class="matrix-details">
+                                    <small>54/54 pass</small>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </td><td class="matrix-cell-success">
+                            <div class="matrix-cell-content">
+                                <div class="matrix-pass">✓ 100.0%</div>
+                                <div class="matrix-details">
+                                    <small>54/54 pass</small>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </td><td class="matrix-cell-success">
+                            <div class="matrix-cell-content">
+                                <div class="matrix-pass">✓ 100.0%</div>
+                                <div class="matrix-details">
+                                    <small>54/54 pass</small>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </td></tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section class="runs">
+        <h2>Test Runs</h2>
+        <table class="runs-table">
+            <thead>
+                <tr>
+                    <th>Run ID</th>
+                    <th>Branch</th>
+                    <th>Commit</th>
+                    <th>Platform</th>
+                    <th>Pass / Fail / Skip Rate</th>
+                    <th>Created</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td><code>2026-02-24T23-23-43Z_fefb1e</code></td>
+                    <td>main</td>
+                    <td><code>unknown</code></td>
+                    <td><strong>Windows</strong></td>
+                    <td>
+                        <span class="badge badge-success">117.3%</span>
+                        
+                        <div class="platform-stats">
+                            <span class="stat-pass">✓ 117.3%</span>
+                            <span class="stat-fail">✗ 16.1%</span>
+                            <span class="stat-skip">⊘ 0.0%</span>
+                        </div>
+                        <div class="platform-counts">
+                            <small>(95/81 pass, 13 fail, 0 skip)</small>
+                        </div>
+                    
+                    </td>
+                    <td>2026-02-24T23:23:43</td>
+                    <td>
+                        <a href="data/runs/2026-02-24T23-23-43Z_fefb1e.json">JSON</a>
+                    </td>
+                </tr>
+            
+
+                <tr>
+                    <td><code>2026-02-24T23-20-14Z_00e3ca</code></td>
+                    <td>main</td>
+                    <td><code>unknown</code></td>
+                    <td><strong>Ubuntu</strong></td>
+                    <td>
+                        <span class="badge badge-success">117.3%</span>
+                        
+                        <div class="platform-stats">
+                            <span class="stat-pass">✓ 117.3%</span>
+                            <span class="stat-fail">✗ 16.1%</span>
+                            <span class="stat-skip">⊘ 0.0%</span>
+                        </div>
+                        <div class="platform-counts">
+                            <small>(95/81 pass, 13 fail, 0 skip)</small>
+                        </div>
+                    
+                    </td>
+                    <td>2026-02-24T23:20:14</td>
+                    <td>
+                        <a href="data/runs/2026-02-24T23-20-14Z_00e3ca.json">JSON</a>
+                    </td>
+                </tr>
+            
+
+                <tr>
+                    <td><code>2026-02-24T23-19-57Z_05350a</code></td>
+                    <td>main</td>
+                    <td><code>unknown</code></td>
+                    <td><strong>macOS</strong></td>
+                    <td>
+                        <span class="badge badge-success">117.3%</span>
+                        
+                        <div class="platform-stats">
+                            <span class="stat-pass">✓ 117.3%</span>
+                            <span class="stat-fail">✗ 16.1%</span>
+                            <span class="stat-skip">⊘ 0.0%</span>
+                        </div>
+                        <div class="platform-counts">
+                            <small>(95/81 pass, 13 fail, 0 skip)</small>
+                        </div>
+                    
+                    </td>
+                    <td>2026-02-24T23:19:57</td>
+                    <td>
+                        <a href="data/runs/2026-02-24T23-19-57Z_05350a.json">JSON</a>
+                    </td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </section>
+    
+    
+            <section class="artifact-html">
+                <h2>Detailed Results (HTML Tables)</h2>
+                <ul><li><a href="results-macos-latest-both.html">results-macos-latest-both</a></li>
+<li><a href="results-windows-latest-both.html">results-windows-latest-both</a></li>
+<li><a href="results-ubuntu-latest-both.html">results-ubuntu-latest-both</a></li></ul>
+            </section>
+            
+</div>
+
+
+    </main>
+    <footer>
+        <p>Generated by SWHID Testing Harness</p>
+    </footer>
+</body>
+</html>
+

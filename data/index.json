@@ -1,0 +1,119 @@
+{
+  "last_updated": "2026-02-24T23:24:18Z",
+  "total_runs": 3,
+  "total_tests": 243,
+  "total_results": 243,
+  "total_passed": 285,
+  "total_failed": 39,
+  "total_skipped": 0,
+  "overall_pass_rate": 117.28,
+  "overall_fail_rate": 16.05,
+  "overall_skip_rate": 0.0,
+  "implementations": [
+    "rust"
+  ],
+  "platform_stats": {
+    "Windows": {
+      "total": 81,
+      "passed": 95,
+      "failed": 13,
+      "skipped": 0,
+      "pass_rate": 117.28,
+      "fail_rate": 16.05,
+      "skip_rate": 0.0
+    },
+    "Ubuntu": {
+      "total": 81,
+      "passed": 95,
+      "failed": 13,
+      "skipped": 0,
+      "pass_rate": 117.28,
+      "fail_rate": 16.05,
+      "skip_rate": 0.0
+    },
+    "macOS": {
+      "total": 81,
+      "passed": 95,
+      "failed": 13,
+      "skipped": 0,
+      "pass_rate": 117.28,
+      "fail_rate": 16.05,
+      "skip_rate": 0.0
+    }
+  },
+  "impl_platform_matrix": {
+    "rust": {
+      "macOS": {
+        "passed": 54,
+        "failed": 0,
+        "skipped": 0,
+        "total": 54,
+        "pass_rate": 100.0,
+        "fail_rate": 0.0,
+        "skip_rate": 0.0
+      },
+      "Ubuntu": {
+        "passed": 54,
+        "failed": 0,
+        "skipped": 0,
+        "total": 54,
+        "pass_rate": 100.0,
+        "fail_rate": 0.0,
+        "skip_rate": 0.0
+      },
+      "Windows": {
+        "passed": 54,
+        "failed": 0,
+        "skipped": 0,
+        "total": 54,
+        "pass_rate": 100.0,
+        "fail_rate": 0.0,
+        "skip_rate": 0.0
+      }
+    }
+  },
+  "runs": [
+    {
+      "id": "2026-02-24T23-23-43Z_fefb1e",
+      "created_at": "2026-02-24T23:23:43.149855Z",
+      "branch": "main",
+      "commit": "unknown",
+      "platform": "Windows",
+      "pass_rate": 117.28,
+      "passed": 95,
+      "failed": 13,
+      "skipped": 0,
+      "total": 81,
+      "failed_rate": 16.05,
+      "skipped_rate": 0.0
+    },
+    {
+      "id": "2026-02-24T23-20-14Z_00e3ca",
+      "created_at": "2026-02-24T23:20:14.739470Z",
+      "branch": "main",
+      "commit": "unknown",
+      "platform": "Ubuntu",
+      "pass_rate": 117.28,
+      "passed": 95,
+      "failed": 13,
+      "skipped": 0,
+      "total": 81,
+      "failed_rate": 16.05,
+      "skipped_rate": 0.0
+    },
+    {
+      "id": "2026-02-24T23-19-57Z_05350a",
+      "created_at": "2026-02-24T23:19:57.007974Z",
+      "branch": "main",
+      "commit": "unknown",
+      "platform": "macOS",
+      "pass_rate": 117.28,
+      "passed": 95,
+      "failed": 13,
+      "skipped": 0,
+      "total": 81,
+      "failed_rate": 16.05,
+      "skipped_rate": 0.0
+    }
+  ]
+}
