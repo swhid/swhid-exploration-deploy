@@ -2,31 +2,31 @@
   "schema_version": "1.0.0",
   "schema_extensions": [],
   "run": {
-    "id": "2026-02-25T00-07-47Z_05e5bc",
-    "created_at": "2026-02-25T00:07:47.265575Z",
+    "id": "2026-02-25T11-37-16Z_5bbb56",
+    "created_at": "2026-02-25T11:37:16.272930Z",
     "branch": "main",
     "commit": "unknown",
     "runner": {
-      "os": "Linux-6.11.0-1018-azure-x86_64-with-glibc2.39",
-      "kernel": "6.11.0-1018-azure",
-      "cpu": "x86_64",
-      "python": "3.12.12",
+      "os": "Windows-2025Server-10.0.26100-SP0",
+      "kernel": null,
+      "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD",
+      "python": "3.12.10",
       "container_image": null
     }
   },
   "run_environment": {
-    "os": "Linux-6.11.0-1018-azure-x86_64-with-glibc2.39",
-    "kernel": "6.11.0-1018-azure",
-    "cpu": "x86_64",
-    "python": "3.12.12",
+    "os": "Windows-2025Server-10.0.26100-SP0",
+    "kernel": null,
+    "cpu": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD",
+    "python": "3.12.10",
     "container_image": null
   },
   "implementations": [
     {
       "id": "rust",
       "version": "1.0.0",
-      "git_sha": "43ac4b46ea87",
-      "git": "43ac4b46ea87",
+      "git_sha": "7e8f3b5dd288",
+      "git": "7e8f3b5dd288",
       "language": "rust",
       "api_version": "1.0",
       "capabilities": {
@@ -50,7 +50,7 @@
         "supports_percent_encoding": true
       },
       "toolchain": {
-        "python": "3.12.12",
+        "python": "3.12.10",
         "language": "rust"
       }
     }
@@ -59,7 +59,7 @@
     {
       "id": "binary_file",
       "category": "content/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/binary.bin",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/binary.bin",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:b909b6e399ef856d8c36fcb662322152e8ff04da",
@@ -72,9 +72,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 4.298,
+            "wall_ms_median": 28.97,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 4.298,
+            "cpu_ms_median": 28.97,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:b909b6e399ef856d8c36fcb662322152e8ff04da"
@@ -85,9 +85,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 4.243,
+            "wall_ms_median": 28.97,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 4.243,
+            "cpu_ms_median": 28.97,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:41c39889d1ec9ed0c66c041ab3d5f3a9f15658456f937bb0141386c9f7352dab"
@@ -97,7 +97,7 @@
     {
       "id": "empty_file",
       "category": "content/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/empty.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/empty.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
@@ -110,9 +110,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.855,
+            "wall_ms_median": 13.907,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.855,
+            "cpu_ms_median": 13.907,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
@@ -123,9 +123,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.878,
+            "wall_ms_median": 13.907,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.878,
+            "cpu_ms_median": 13.907,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:473a0f4c3be8a93681a267e3b1e9a7dcda1185436fe141f7749120a303721813"
@@ -135,7 +135,7 @@
     {
       "id": "hello_world",
       "category": "content/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/hello.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/hello.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:f732d2ae1a449d8204f266b59bb35cb4eb0e899d",
@@ -148,9 +148,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.131,
+            "wall_ms_median": 11.868,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.131,
+            "cpu_ms_median": 11.868,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:f732d2ae1a449d8204f266b59bb35cb4eb0e899d"
@@ -161,9 +161,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.959,
+            "wall_ms_median": 11.868,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.959,
+            "cpu_ms_median": 11.868,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:a0a477f1ecf419c7eaa7fe256c5c12fb03bee86df9a22aad25f85930de203e14"
@@ -173,7 +173,7 @@
     {
       "id": "large_file",
       "category": "content/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/large.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/large.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:fc26db1cf2fd25ac90dbf93eef0ebb92b51e8850",
@@ -186,9 +186,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 5.198,
+            "wall_ms_median": 16.418,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 5.198,
+            "cpu_ms_median": 16.418,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:fc26db1cf2fd25ac90dbf93eef0ebb92b51e8850"
@@ -199,9 +199,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 3.328,
+            "wall_ms_median": 14.405,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 3.328,
+            "cpu_ms_median": 14.405,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:1707c428cf4b5ca56c153dd298b7a2c11e5a5fa63c145c4c9fafbfc37be417b8"
@@ -211,7 +211,7 @@
     {
       "id": "truly_empty",
       "category": "content/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/truly_empty.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/truly_empty.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:8d1c8b69c3fce7bea45c73efd06983e3c419a92f",
@@ -224,9 +224,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.981,
+            "wall_ms_median": 15.696,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.981,
+            "cpu_ms_median": 15.696,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:8d1c8b69c3fce7bea45c73efd06983e3c419a92f"
@@ -237,9 +237,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.778,
+            "wall_ms_median": 15.378,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.778,
+            "cpu_ms_median": 15.378,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:5739035bedeba9615f3406b3f5e3e7881d440616941f5b5918eab90f14428019"
@@ -249,7 +249,7 @@
     {
       "id": "unicode_text",
       "category": "content/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/unicode.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/unicode.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:a5c8b6044dbae83d6d31ce1d66f09b9900d0556a",
@@ -262,9 +262,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.96,
+            "wall_ms_median": 13.555,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.96,
+            "cpu_ms_median": 13.555,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:a5c8b6044dbae83d6d31ce1d66f09b9900d0556a"
@@ -275,9 +275,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.712,
+            "wall_ms_median": 13.555,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.712,
+            "cpu_ms_median": 13.555,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:b0c2d7d90cf1a9497ef1ea636c3bba1c38d0041275b7a8abea21a62fe29d31d0"
@@ -287,7 +287,7 @@
     {
       "id": "crlf_line_endings",
       "category": "content/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/edge_cases/crlf.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/edge_cases/crlf.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:08a29ba1a45a68c26a3326af2b32d0d53741b8e2",
@@ -300,9 +300,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.002,
+            "wall_ms_median": 13.874,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.002,
+            "cpu_ms_median": 13.874,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:08a29ba1a45a68c26a3326af2b32d0d53741b8e2"
@@ -313,9 +313,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.137,
+            "wall_ms_median": 13.874,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.137,
+            "cpu_ms_median": 13.874,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:358ca252cdba86b8b4a63793bfeae634f48a8d9be80d9f38c11a48ae5978b675"
@@ -325,7 +325,7 @@
     {
       "id": "huge_line",
       "category": "content/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/edge_cases/huge_line.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/edge_cases/huge_line.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:0cc78f03afecc3168390651ee40b7d605c47373b",
@@ -338,9 +338,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.141,
+            "wall_ms_median": 14.136,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.141,
+            "cpu_ms_median": 14.136,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:0cc78f03afecc3168390651ee40b7d605c47373b"
@@ -351,9 +351,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.933,
+            "wall_ms_median": 14.136,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.933,
+            "cpu_ms_median": 14.136,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:71fc787559ba944bd647614c1973acd2d68d58bc32c2635d80a34a6be6e157f6"
@@ -363,7 +363,7 @@
     {
       "id": "lf_only_line_endings",
       "category": "content/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/edge_cases/lf_only.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/edge_cases/lf_only.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:baa3d84af3432fc2165fbeedfd3d01a9ef8f1f8f",
@@ -376,9 +376,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.911,
+            "wall_ms_median": 14.114,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.911,
+            "cpu_ms_median": 14.114,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:baa3d84af3432fc2165fbeedfd3d01a9ef8f1f8f"
@@ -389,9 +389,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.696,
+            "wall_ms_median": 14.114,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.696,
+            "cpu_ms_median": 14.114,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:8d350824350b609d7dd52c283008e4fdc093750a7cfe47b0e516bed780454b97"
@@ -401,7 +401,7 @@
     {
       "id": "mixed_line_endings",
       "category": "content/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/edge_cases/mixed_line_endings.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/edge_cases/mixed_line_endings.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:34f1257dbbb7e20b745654c0cd067ff24375d1d7",
@@ -414,9 +414,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.92,
+            "wall_ms_median": 15.896,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.92,
+            "cpu_ms_median": 15.896,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:34f1257dbbb7e20b745654c0cd067ff24375d1d7"
@@ -427,9 +427,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.715,
+            "wall_ms_median": 15.896,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.715,
+            "cpu_ms_median": 15.896,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:0c5577ca2629467c3edfff5fa717739a7576d4bdf0d34563c60700cd9a41c7ad"
@@ -439,7 +439,7 @@
     {
       "id": "no_trailing_newline",
       "category": "content/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/edge_cases/no_trailing_nl.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/edge_cases/no_trailing_nl.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:5ab2f8a4323abafb10abb68657d9d39f1a775057",
@@ -452,9 +452,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.933,
+            "wall_ms_median": 13.961,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.933,
+            "cpu_ms_median": 13.961,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:5ab2f8a4323abafb10abb68657d9d39f1a775057"
@@ -465,9 +465,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.922,
+            "wall_ms_median": 13.961,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.922,
+            "cpu_ms_median": 13.961,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:1301800ffa9c48e2a82cbfda7fe9d17d5605cfa5df7c673639c44d8fcc244a71"
@@ -477,7 +477,7 @@
     {
       "id": "only_newlines",
       "category": "content/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/edge_cases/only_newlines.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/edge_cases/only_newlines.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:3f2ff2d6cc8f257ffcade7ead1ca4042c0e884b9",
@@ -490,9 +490,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.82,
+            "wall_ms_median": 13.736,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.82,
+            "cpu_ms_median": 13.736,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:3f2ff2d6cc8f257ffcade7ead1ca4042c0e884b9"
@@ -503,9 +503,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.866,
+            "wall_ms_median": 14.118,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.866,
+            "cpu_ms_median": 14.118,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:5c601de2c229872649d66f9523f82d6b9db10d7cd0ebc6bbd11eaa88fedf6f83"
@@ -515,7 +515,7 @@
     {
       "id": "with_trailing_newline",
       "category": "content/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/edge_cases/with_trailing_nl.txt",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/edge_cases/with_trailing_nl.txt",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:e965047ad7c57865823c7d992b1d046ea66edf78",
@@ -528,9 +528,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.005,
+            "wall_ms_median": 13.874,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.005,
+            "cpu_ms_median": 13.874,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:e965047ad7c57865823c7d992b1d046ea66edf78"
@@ -541,9 +541,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.774,
+            "wall_ms_median": 13.874,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.774,
+            "cpu_ms_median": 13.874,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:66224663d23e6f4d9de9e2c7e6d8764305a92a3830a1a52d3d5f4aa8007b5c39"
@@ -553,7 +553,7 @@
     {
       "id": "zero_bytes",
       "category": "content/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/content/edge_cases/zero_bytes.bin",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/content/edge_cases/zero_bytes.bin",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:cnt:c2e47a26313532fc1adeb13e3231cd9909d38fac",
@@ -566,9 +566,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.933,
+            "wall_ms_median": 13.879,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.933,
+            "cpu_ms_median": 13.879,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:c2e47a26313532fc1adeb13e3231cd9909d38fac"
@@ -579,9 +579,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.685,
+            "wall_ms_median": 13.879,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.685,
+            "cpu_ms_median": 13.879,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:878e4fcc1ec6063fee615b8c2527db5ce809b785fdfa454a64f4979cffbf3826"
@@ -591,7 +591,7 @@
     {
       "id": "empty_dir",
       "category": "directory/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/empty/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/empty/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:d564d0bc3dd917926892c55e3706cc116d5b165e",
@@ -604,9 +604,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.341,
+            "wall_ms_median": 49.692,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.341,
+            "cpu_ms_median": 49.692,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:d564d0bc3dd917926892c55e3706cc116d5b165e"
@@ -617,9 +617,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.15,
+            "wall_ms_median": 47.68,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.15,
+            "cpu_ms_median": 47.68,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:de6f8a1c4a2e6e2d8fc8b81fd7cb477ab5f58af185b8bb57046052f170fbb222"
@@ -629,7 +629,7 @@
     {
       "id": "nested_dir",
       "category": "directory/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/nested/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/nested/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:0bbbf9c7f265450b510251ff215a729f062a763a",
@@ -642,9 +642,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 32.639,
+            "wall_ms_median": 78.002,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 32.639,
+            "cpu_ms_median": 78.002,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:0bbbf9c7f265450b510251ff215a729f062a763a"
@@ -655,9 +655,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 33.135,
+            "wall_ms_median": 78.002,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 33.135,
+            "cpu_ms_median": 78.002,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:741f4566b80fb94c13dee7e1c10d934f49c4f3bf03b1fc8b2ed6816c97ca9002"
@@ -667,7 +667,7 @@
     {
       "id": "permissions_dir",
       "category": "directory/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/permissions/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/permissions/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:bc3f7f74e7aa5fcb859eaaa3949d5cae29c28ca4",
@@ -680,9 +680,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 30.048,
+            "wall_ms_median": 366.698,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 30.048,
+            "cpu_ms_median": 366.698,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:bc3f7f74e7aa5fcb859eaaa3949d5cae29c28ca4"
@@ -693,9 +693,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.433,
+            "wall_ms_median": 368.716,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.433,
+            "cpu_ms_median": 368.716,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:702b56cb3d129536c6ea6f77eca4bf6a171374774a27a3c638c8439bc4728f7e"
@@ -705,7 +705,7 @@
     {
       "id": "simple_dir",
       "category": "directory/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/simple/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/simple/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:3f09c252c646f8ac591d60e02e41ab09274de7c1",
@@ -718,9 +718,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.218,
+            "wall_ms_median": 70.703,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.218,
+            "cpu_ms_median": 70.703,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:3f09c252c646f8ac591d60e02e41ab09274de7c1"
@@ -731,9 +731,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 25.954,
+            "wall_ms_median": 74.249,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.954,
+            "cpu_ms_median": 74.249,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:8b6ff16ed274bf60326d654c3f5bca679a7ced5542be29713bb67b36a1237ac2"
@@ -743,7 +743,7 @@
     {
       "id": "symlink_dir",
       "category": "directory/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/symlink/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/symlink/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:98e24c042d1ed01420c09c873d8b5e4e50c400bf",
@@ -756,9 +756,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.272,
+            "wall_ms_median": 76.948,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.272,
+            "cpu_ms_median": 76.948,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:98e24c042d1ed01420c09c873d8b5e4e50c400bf"
@@ -769,9 +769,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.212,
+            "wall_ms_median": 77.703,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.212,
+            "cpu_ms_median": 77.703,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:977e5f1ebb683f9006fb828c1a5e8fe0155a7211694d123db2a591d640460ad2"
@@ -781,11 +781,11 @@
     {
       "id": "comprehensive_permissions",
       "category": "directory/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/edge_cases/comprehensive_permissions/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/edge_cases/comprehensive_permissions/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:32798ac33695bd283d6e650c61a40bc2dbda3a2e",
-        "expected_swhid_sha256": "swh:2:dir:42ddd5a29409f434627457ae2cd6460d17c161aa02a7df7609ae9417ed11b016"
+        "expected_swhid_sha256": "swh:2:dir:6986f3d18106aecd3d4e1171eb5e38f02c05a63239066a6d6e798a4338ade3a6"
       },
       "results": [
         {
@@ -794,38 +794,22 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 25.787,
+            "wall_ms_median": 379.42,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.787,
+            "cpu_ms_median": 379.42,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:32798ac33695bd283d6e650c61a40bc2dbda3a2e"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:dir:6986f3d18106aecd3d4e1171eb5e38f02c05a63239066a6d6e798a4338ade3a6",
-              "expected": "swh:2:dir:42ddd5a29409f434627457ae2cd6460d17c161aa02a7df7609ae9417ed11b016"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:dir:42ddd5a29409f434627457ae2cd6460d17c161aa02a7df7609ae9417ed11b016",
-                "actual": "swh:2:dir:6986f3d18106aecd3d4e1171eb5e38f02c05a63239066a6d6e798a4338ade3a6",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 25.802,
+            "wall_ms_median": 379.42,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.802,
+            "cpu_ms_median": 379.42,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:6986f3d18106aecd3d4e1171eb5e38f02c05a63239066a6d6e798a4338ade3a6"
@@ -835,36 +819,11 @@
     {
       "id": "dir_ordering",
       "category": "directory/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/edge_cases/dir_ordering/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/edge_cases/dir_ordering/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:8a75e785dc497ca2fd150e8f32e13656eb3b6f88",
-        "expected_swhid_sha256": null
-      },
-      "results": [
-        {
-          "implementation": "rust",
-          "status": "PASS",
-          "error": null,
-          "metrics": {
-            "samples": 1,
-            "wall_ms_median": 26.28,
-            "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.28,
-            "max_rss_kb": null
-          },
-          "swhid": "swh:1:dir:8a75e785dc497ca2fd150e8f32e13656eb3b6f88"
-        }
-      ]
-    },
-    {
-      "id": "empty_paths",
-      "category": "directory/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/edge_cases/empty_paths/",
-      "expected": {
-        "reference_impl": "python-swhid",
-        "swhid": "swh:1:dir:e74c2821d3ed7d865d81068116994c209988dac2",
-        "expected_swhid_sha256": "swh:2:dir:fafa6df6af8dcc7855a02943d7097187f28de8e7111540f876fcacf85a1a53b0"
+        "expected_swhid_sha256": "swh:2:dir:8488b95fe3587e0224e652fad205810531555542e8cc7e82ce2fc4d41481fc41"
       },
       "results": [
         {
@@ -873,38 +832,60 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.299,
+            "wall_ms_median": 123.114,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.299,
+            "cpu_ms_median": 123.114,
+            "max_rss_kb": null
+          },
+          "swhid": "swh:1:dir:8a75e785dc497ca2fd150e8f32e13656eb3b6f88"
+        },
+        {
+          "implementation": "rust_v2",
+          "status": "PASS",
+          "error": null,
+          "metrics": {
+            "samples": 1,
+            "wall_ms_median": 123.114,
+            "wall_ms_mad": 0.0,
+            "cpu_ms_median": 123.114,
+            "max_rss_kb": null
+          },
+          "swhid": "swh:2:dir:8488b95fe3587e0224e652fad205810531555542e8cc7e82ce2fc4d41481fc41"
+        }
+      ]
+    },
+    {
+      "id": "empty_paths",
+      "category": "directory/edge_cases",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/edge_cases/empty_paths/",
+      "expected": {
+        "reference_impl": "python-swhid",
+        "swhid": "swh:1:dir:e74c2821d3ed7d865d81068116994c209988dac2",
+        "expected_swhid_sha256": "swh:2:dir:e2f6aa942f021772f074a256b27468c791e9f2e5855aa4d9a76cbb46bd2871ce"
+      },
+      "results": [
+        {
+          "implementation": "rust_v1",
+          "status": "PASS",
+          "error": null,
+          "metrics": {
+            "samples": 1,
+            "wall_ms_median": 123.276,
+            "wall_ms_mad": 0.0,
+            "cpu_ms_median": 123.276,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:e74c2821d3ed7d865d81068116994c209988dac2"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:dir:e2f6aa942f021772f074a256b27468c791e9f2e5855aa4d9a76cbb46bd2871ce",
-              "expected": "swh:2:dir:fafa6df6af8dcc7855a02943d7097187f28de8e7111540f876fcacf85a1a53b0"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:dir:fafa6df6af8dcc7855a02943d7097187f28de8e7111540f876fcacf85a1a53b0",
-                "actual": "swh:2:dir:e2f6aa942f021772f074a256b27468c791e9f2e5855aa4d9a76cbb46bd2871ce",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.157,
+            "wall_ms_median": 123.276,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.157,
+            "cpu_ms_median": 123.276,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:e2f6aa942f021772f074a256b27468c791e9f2e5855aa4d9a76cbb46bd2871ce"
@@ -914,11 +895,11 @@
     {
       "id": "entry_ordering",
       "category": "directory/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/edge_cases/entry_ordering/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/edge_cases/entry_ordering/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:367667c0665514d6e9aacf236eca852ae92c0cf6",
-        "expected_swhid_sha256": "swh:2:dir:82adc728758d57594b716d575e10758aa94a0a282a05c03006e1a33a45f85615"
+        "expected_swhid_sha256": "swh:2:dir:ef3635807e9e5af2a4188298de95f4e1a2300295a7d7629ce07b803fe4d127d9"
       },
       "results": [
         {
@@ -927,38 +908,22 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.197,
+            "wall_ms_median": 124.807,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.197,
+            "cpu_ms_median": 124.807,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:367667c0665514d6e9aacf236eca852ae92c0cf6"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:dir:ef3635807e9e5af2a4188298de95f4e1a2300295a7d7629ce07b803fe4d127d9",
-              "expected": "swh:2:dir:82adc728758d57594b716d575e10758aa94a0a282a05c03006e1a33a45f85615"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:dir:82adc728758d57594b716d575e10758aa94a0a282a05c03006e1a33a45f85615",
-                "actual": "swh:2:dir:ef3635807e9e5af2a4188298de95f4e1a2300295a7d7629ce07b803fe4d127d9",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.172,
+            "wall_ms_median": 123.115,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.172,
+            "cpu_ms_median": 123.115,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:ef3635807e9e5af2a4188298de95f4e1a2300295a7d7629ce07b803fe4d127d9"
@@ -968,11 +933,11 @@
     {
       "id": "mixed_types",
       "category": "directory/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/edge_cases/mixed_types/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/edge_cases/mixed_types/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:6a805bfd6380e2e1e4412ac66933ebd244fb9d72",
-        "expected_swhid_sha256": "swh:2:dir:c41d695c2be887347e58a7cf748fae790a387172b7365298f41f1902ecd8f8ce"
+        "expected_swhid_sha256": "swh:2:dir:fad4b42e6c2b590c9a432a5976d37215cf291c76c77f11cf57d65733d3ce7db6"
       },
       "results": [
         {
@@ -981,38 +946,22 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.692,
+            "wall_ms_median": 412.342,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.692,
+            "cpu_ms_median": 412.342,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:6a805bfd6380e2e1e4412ac66933ebd244fb9d72"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:dir:fad4b42e6c2b590c9a432a5976d37215cf291c76c77f11cf57d65733d3ce7db6",
-              "expected": "swh:2:dir:c41d695c2be887347e58a7cf748fae790a387172b7365298f41f1902ecd8f8ce"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:dir:c41d695c2be887347e58a7cf748fae790a387172b7365298f41f1902ecd8f8ce",
-                "actual": "swh:2:dir:fad4b42e6c2b590c9a432a5976d37215cf291c76c77f11cf57d65733d3ce7db6",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.52,
+            "wall_ms_median": 410.329,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.52,
+            "cpu_ms_median": 410.329,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:fad4b42e6c2b590c9a432a5976d37215cf291c76c77f11cf57d65733d3ce7db6"
@@ -1022,11 +971,11 @@
     {
       "id": "path_terminator",
       "category": "directory/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/edge_cases/path_terminator/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/edge_cases/path_terminator/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:cfed4cb9781dbec4a5d0184bd2f671dc350137ca",
-        "expected_swhid_sha256": "swh:2:dir:2fd0f61dcec74b4c3313ed94de2289886fa05f5347729b5250913c6db3ab69d1"
+        "expected_swhid_sha256": "swh:2:dir:134a6aca679b1fc4107adb1237e4b020150510d328c257721ee85e4700d712ce"
       },
       "results": [
         {
@@ -1035,38 +984,22 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.689,
+            "wall_ms_median": 134.146,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.689,
+            "cpu_ms_median": 134.146,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:cfed4cb9781dbec4a5d0184bd2f671dc350137ca"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:dir:134a6aca679b1fc4107adb1237e4b020150510d328c257721ee85e4700d712ce",
-              "expected": "swh:2:dir:2fd0f61dcec74b4c3313ed94de2289886fa05f5347729b5250913c6db3ab69d1"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:dir:2fd0f61dcec74b4c3313ed94de2289886fa05f5347729b5250913c6db3ab69d1",
-                "actual": "swh:2:dir:134a6aca679b1fc4107adb1237e4b020150510d328c257721ee85e4700d712ce",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.801,
+            "wall_ms_median": 132.133,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.801,
+            "cpu_ms_median": 132.133,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:134a6aca679b1fc4107adb1237e4b020150510d328c257721ee85e4700d712ce"
@@ -1076,11 +1009,11 @@
     {
       "id": "special_chars",
       "category": "directory/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/edge_cases/special_chars/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/edge_cases/special_chars/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:09b68fff5b158f616bd76d5e82836dafc6b96aaf",
-        "expected_swhid_sha256": "swh:2:dir:bef9c1db670f9ee378973ceb7890ef9c7fb59e86da37d0b9d7e87a3b01b5242c"
+        "expected_swhid_sha256": "swh:2:dir:fbe5726704829cb41375d567ebdd1a0e313b2a045551b05ef77a0c47a8f2823d"
       },
       "results": [
         {
@@ -1089,38 +1022,22 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.209,
+            "wall_ms_median": 203.878,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.209,
+            "cpu_ms_median": 203.878,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:09b68fff5b158f616bd76d5e82836dafc6b96aaf"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:dir:fbe5726704829cb41375d567ebdd1a0e313b2a045551b05ef77a0c47a8f2823d",
-              "expected": "swh:2:dir:bef9c1db670f9ee378973ceb7890ef9c7fb59e86da37d0b9d7e87a3b01b5242c"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:dir:bef9c1db670f9ee378973ceb7890ef9c7fb59e86da37d0b9d7e87a3b01b5242c",
-                "actual": "swh:2:dir:fbe5726704829cb41375d567ebdd1a0e313b2a045551b05ef77a0c47a8f2823d",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 25.955,
+            "wall_ms_median": 205.895,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.955,
+            "cpu_ms_median": 205.895,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:fbe5726704829cb41375d567ebdd1a0e313b2a045551b05ef77a0c47a8f2823d"
@@ -1130,11 +1047,11 @@
     {
       "id": "unicode_names",
       "category": "directory/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/edge_cases/unicode_names/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/edge_cases/unicode_names/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:ee7194e754e8a911d41b83a06c10a22b7266d1bd",
-        "expected_swhid_sha256": "swh:2:dir:dbfc924111a1575680faca6d3702622987cf2c8ac4eb7af2f2a0d37a1f386fd9"
+        "expected_swhid_sha256": "swh:2:dir:03ea1f801e73041096c6e699fa1f46913cc478973e5430079aa72efe21e25d7b"
       },
       "results": [
         {
@@ -1143,38 +1060,22 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.312,
+            "wall_ms_median": 123.909,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.312,
+            "cpu_ms_median": 123.909,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:ee7194e754e8a911d41b83a06c10a22b7266d1bd"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:dir:03ea1f801e73041096c6e699fa1f46913cc478973e5430079aa72efe21e25d7b",
-              "expected": "swh:2:dir:dbfc924111a1575680faca6d3702622987cf2c8ac4eb7af2f2a0d37a1f386fd9"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:dir:dbfc924111a1575680faca6d3702622987cf2c8ac4eb7af2f2a0d37a1f386fd9",
-                "actual": "swh:2:dir:03ea1f801e73041096c6e699fa1f46913cc478973e5430079aa72efe21e25d7b",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.002,
+            "wall_ms_median": 123.909,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.002,
+            "cpu_ms_median": 123.909,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:03ea1f801e73041096c6e699fa1f46913cc478973e5430079aa72efe21e25d7b"
@@ -1184,11 +1085,11 @@
     {
       "id": "unicode_normalization",
       "category": "directory/edge_cases",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/directory/edge_cases/unicode_normalization/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/directory/edge_cases/unicode_normalization/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:dir:53d793e1a86c17e1c120e8cf1d9cec788a5c360f",
-        "expected_swhid_sha256": "swh:2:dir:996e3bc4715f32b0bfb5f2f9f69cf57ddc60cc0243097ed6cad1a88ea51019dc"
+        "expected_swhid_sha256": "swh:2:dir:4fd288829483b6f50c616f044a7bdb4375f4d6178a71650208efead7725761c1"
       },
       "results": [
         {
@@ -1197,38 +1098,22 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.732,
+            "wall_ms_median": 102.702,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.732,
+            "cpu_ms_median": 102.702,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:53d793e1a86c17e1c120e8cf1d9cec788a5c360f"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:dir:4fd288829483b6f50c616f044a7bdb4375f4d6178a71650208efead7725761c1",
-              "expected": "swh:2:dir:996e3bc4715f32b0bfb5f2f9f69cf57ddc60cc0243097ed6cad1a88ea51019dc"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:dir:996e3bc4715f32b0bfb5f2f9f69cf57ddc60cc0243097ed6cad1a88ea51019dc",
-                "actual": "swh:2:dir:4fd288829483b6f50c616f044a7bdb4375f4d6178a71650208efead7725761c1",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.987,
+            "wall_ms_median": 102.702,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.987,
+            "cpu_ms_median": 102.702,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:4fd288829483b6f50c616f044a7bdb4375f4d6178a71650208efead7725761c1"
@@ -1238,7 +1123,7 @@
     {
       "id": "alias_branches",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/alias_branches/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/alias_branches/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:9985c2da7ec2950ae93a4bc81d09bbe21ac3d423",
@@ -1251,9 +1136,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 112.553,
+            "wall_ms_median": 158.581,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 112.553,
+            "cpu_ms_median": 158.581,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:9985c2da7ec2950ae93a4bc81d09bbe21ac3d423"
@@ -1263,7 +1148,7 @@
     {
       "id": "case_rename",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/case_rename/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/case_rename/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:f72a5cda8a9e692733f28dd97f6a497789fe4f1a",
@@ -1276,9 +1161,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 55.608,
+            "wall_ms_median": 88.859,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 55.608,
+            "cpu_ms_median": 88.859,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:f72a5cda8a9e692733f28dd97f6a497789fe4f1a"
@@ -1288,7 +1173,7 @@
     {
       "id": "dangling_branches",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/dangling_branches/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/dangling_branches/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:b1a1cb66e7a27f7a6b2424e953bd21d39c975f78",
@@ -1301,9 +1186,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 81.717,
+            "wall_ms_median": 123.059,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 81.717,
+            "cpu_ms_median": 123.059,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:b1a1cb66e7a27f7a6b2424e953bd21d39c975f78"
@@ -1313,7 +1198,7 @@
     {
       "id": "lightweight_vs_annotated",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/lightweight_vs_annotated/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/lightweight_vs_annotated/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:3ed4bb336012f1b2fa16fbf57c55f90c29cdf173",
@@ -1326,9 +1211,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 139.324,
+            "wall_ms_median": 249.566,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 139.324,
+            "cpu_ms_median": 249.566,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:3ed4bb336012f1b2fa16fbf57c55f90c29cdf173"
@@ -1338,7 +1223,7 @@
     {
       "id": "merge_commits",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/merge_commits/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/merge_commits/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:ef2430afbf4735f02b73c79bc4a53af6da5c6d18",
@@ -1351,9 +1236,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 81.831,
+            "wall_ms_median": 121.988,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 81.831,
+            "cpu_ms_median": 121.988,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:ef2430afbf4735f02b73c79bc4a53af6da5c6d18"
@@ -1363,7 +1248,7 @@
     {
       "id": "signed_tag",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/signed_tag/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/signed_tag/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:1109043ec17eeb3bf7d657689ab60336c901fde9",
@@ -1376,9 +1261,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 82.798,
+            "wall_ms_median": 143.704,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 82.798,
+            "cpu_ms_median": 143.704,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:1109043ec17eeb3bf7d657689ab60336c901fde9"
@@ -1388,7 +1273,7 @@
     {
       "id": "snapshot_branch_order",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/snapshot_branch_order/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/snapshot_branch_order/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:8f0d48de532ad98671b25f6b069ee3003f46a505",
@@ -1401,9 +1286,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 161.64,
+            "wall_ms_median": 222.556,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 161.64,
+            "cpu_ms_median": 222.556,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:8f0d48de532ad98671b25f6b069ee3003f46a505"
@@ -1413,7 +1298,7 @@
     {
       "id": "submodule",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/submodule/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/submodule/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:92683e1879de34dc894fa28d4854e9437257dee2",
@@ -1426,9 +1311,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 55.185,
+            "wall_ms_median": 87.428,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 55.185,
+            "cpu_ms_median": 87.428,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:92683e1879de34dc894fa28d4854e9437257dee2"
@@ -1438,7 +1323,7 @@
     {
       "id": "synthetic_repo",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/synthetic/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/synthetic/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:d66db619f7d82b4bc6524810d045d731ae099ef7",
@@ -1451,9 +1336,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 111.431,
+            "wall_ms_median": 174.64,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 111.431,
+            "cpu_ms_median": 174.64,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:d66db619f7d82b4bc6524810d045d731ae099ef7"
@@ -1463,7 +1348,7 @@
     {
       "id": "timezone_extremes",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/timezone_extremes/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/timezone_extremes/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:a08106ee77186a6657c1ac9214cda20e728e66a2",
@@ -1476,9 +1361,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 55.086,
+            "wall_ms_median": 89.183,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 55.086,
+            "cpu_ms_median": 89.183,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:a08106ee77186a6657c1ac9214cda20e728e66a2"
@@ -1488,7 +1373,7 @@
     {
       "id": "with_tags",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/with_tags/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/with_tags/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:9497c331aac82899611d1c2e9a0eef1d3c161c8d",
@@ -1501,9 +1386,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 138.671,
+            "wall_ms_median": 232.224,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 138.671,
+            "cpu_ms_median": 232.224,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:9497c331aac82899611d1c2e9a0eef1d3c161c8d"
@@ -1513,7 +1398,7 @@
     {
       "id": "branch_ordering",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/branch_ordering.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/branch_ordering.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:e44a647204ef944dd0fd28302a0d65124b93cd36",
@@ -1526,9 +1411,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 181.514,
+            "wall_ms_median": 323.184,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 181.514,
+            "cpu_ms_median": 323.184,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:e44a647204ef944dd0fd28302a0d65124b93cd36"
@@ -1538,7 +1423,7 @@
     {
       "id": "complex_merges",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/complex_merges.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/complex_merges.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:604524a5decb4c927258eb4d9f5a121c48218bd4",
@@ -1551,9 +1436,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 124.842,
+            "wall_ms_median": 249.324,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 124.842,
+            "cpu_ms_median": 249.324,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:604524a5decb4c927258eb4d9f5a121c48218bd4"
@@ -1563,7 +1448,7 @@
     {
       "id": "comprehensive_branch_develop",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:5e8a55e005e0003cd976ac876b2a598bf0d91362",
@@ -1576,9 +1461,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.133,
+            "wall_ms_median": 35.777,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.133,
+            "cpu_ms_median": 35.777,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:5e8a55e005e0003cd976ac876b2a598bf0d91362"
@@ -1588,7 +1473,7 @@
     {
       "id": "comprehensive_branch_feature-a",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764",
@@ -1601,9 +1486,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.926,
+            "wall_ms_median": 35.797,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.926,
+            "cpu_ms_median": 35.797,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764"
@@ -1613,7 +1498,7 @@
     {
       "id": "comprehensive_branch_feature-b",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149",
@@ -1626,9 +1511,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.897,
+            "wall_ms_median": 35.584,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.897,
+            "cpu_ms_median": 35.584,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149"
@@ -1638,7 +1523,7 @@
     {
       "id": "comprehensive_branch_hotfix",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720",
@@ -1651,9 +1536,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.272,
+            "wall_ms_median": 35.817,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.272,
+            "cpu_ms_median": 35.817,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720"
@@ -1663,7 +1548,7 @@
     {
       "id": "comprehensive_branch_main",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf",
@@ -1676,9 +1561,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.226,
+            "wall_ms_median": 35.839,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.226,
+            "cpu_ms_median": 35.839,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf"
@@ -1688,7 +1573,7 @@
     {
       "id": "comprehensive_tag_v1.0.0",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4",
@@ -1701,9 +1586,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 25.874,
+            "wall_ms_median": 17.919,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.874,
+            "cpu_ms_median": 17.919,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4"
@@ -1713,7 +1598,7 @@
     {
       "id": "comprehensive_tag_v1.0.1",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54",
@@ -1726,9 +1611,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.1,
+            "wall_ms_median": 17.899,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.1,
+            "cpu_ms_median": 17.899,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54"
@@ -1738,7 +1623,7 @@
     {
       "id": "comprehensive_tag_v1.1.0",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a",
@@ -1751,9 +1636,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.304,
+            "wall_ms_median": 17.415,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.304,
+            "cpu_ms_median": 17.415,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a"
@@ -1763,7 +1648,7 @@
     {
       "id": "comprehensive_tag_v2.0.0",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f",
@@ -1776,9 +1661,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 25.832,
+            "wall_ms_median": 15.659,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.832,
+            "cpu_ms_median": 15.659,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f"
@@ -1788,7 +1673,7 @@
     {
       "id": "comprehensive_tag_v2.1.0",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_i3vrdtsd/comprehensive",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test_n85kvcns\\comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39",
@@ -1801,9 +1686,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.136,
+            "wall_ms_median": 17.921,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.136,
+            "cpu_ms_median": 17.921,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39"
@@ -1813,7 +1698,7 @@
     {
       "id": "merge_commits",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/merge_commits.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/merge_commits.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:5c9c3c9be880d0ac89707304017006716d6749a6",
@@ -1826,9 +1711,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 98.609,
+            "wall_ms_median": 194.221,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 98.609,
+            "cpu_ms_median": 194.221,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:5c9c3c9be880d0ac89707304017006716d6749a6"
@@ -1838,7 +1723,7 @@
     {
       "id": "signed_releases",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/signed_releases.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/signed_releases.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:1a358894eaa5f6f9727168d9280e992af1a076b4",
@@ -1851,9 +1736,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 159.293,
+            "wall_ms_median": 343.078,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 159.293,
+            "cpu_ms_median": 343.078,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:1a358894eaa5f6f9727168d9280e992af1a076b4"
@@ -1863,7 +1748,7 @@
     {
       "id": "signed_revisions_branch_main",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_sgqi9nur/signed_revisions",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test__q2xxhwv\\signed_revisions",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe",
@@ -1876,9 +1761,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.921,
+            "wall_ms_median": 35.47,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.921,
+            "cpu_ms_median": 35.47,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -1888,7 +1773,7 @@
     {
       "id": "signed_revisions_branch_signed-feature",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_sgqi9nur/signed_revisions",
+      "payload_ref": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\swhid_test__q2xxhwv\\signed_revisions",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe",
@@ -1901,9 +1786,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.138,
+            "wall_ms_median": 37.84,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.138,
+            "cpu_ms_median": 37.84,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -1913,7 +1798,7 @@
     {
       "id": "simple_revisions",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/simple_revisions.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/simple_revisions.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:2f1450c1be7a6945b69d2c3724ac30a3be025e92",
@@ -1926,9 +1811,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 68.028,
+            "wall_ms_median": 151.662,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 68.028,
+            "cpu_ms_median": 151.662,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:2f1450c1be7a6945b69d2c3724ac30a3be025e92"
@@ -1938,7 +1823,7 @@
     {
       "id": "tag_types",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/tag_types.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/tag_types.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:snp:98a720761e59ff1704a84b38e0f3f683a6c2d5d9",
@@ -1951,9 +1836,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 126.469,
+            "wall_ms_median": 261.744,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 126.469,
+            "cpu_ms_median": 261.744,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:98a720761e59ff1704a84b38e0f3f683a6c2d5d9"
@@ -1963,7 +1848,7 @@
     {
       "id": "annotated_release_v1",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/with_tags/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/with_tags/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:976993709ac2245f5128a5205653b26eab703fe1",
@@ -1976,9 +1861,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 25.417,
+            "wall_ms_median": 16.862,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.417,
+            "cpu_ms_median": 16.862,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:976993709ac2245f5128a5205653b26eab703fe1"
@@ -1988,7 +1873,7 @@
     {
       "id": "annotated_release_v2",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/with_tags/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/with_tags/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:a7c9921fab18efe11882532bdf751f44a704917a",
@@ -2001,9 +1886,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 25.212,
+            "wall_ms_median": 15.867,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.212,
+            "cpu_ms_median": 15.867,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:a7c9921fab18efe11882532bdf751f44a704917a"
@@ -2013,7 +1898,7 @@
     {
       "id": "comprehensive_tag_v1.0.0",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/comprehensive.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/comprehensive.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4",
@@ -2026,9 +1911,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 48.052,
+            "wall_ms_median": 120.75,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 48.052,
+            "cpu_ms_median": 120.75,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4"
@@ -2038,7 +1923,7 @@
     {
       "id": "comprehensive_tag_v1.0.1",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/comprehensive.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/comprehensive.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54",
@@ -2051,9 +1936,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 48.135,
+            "wall_ms_median": 123.047,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 48.135,
+            "cpu_ms_median": 123.047,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54"
@@ -2063,7 +1948,7 @@
     {
       "id": "comprehensive_tag_v1.1.0",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/comprehensive.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/comprehensive.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a",
@@ -2076,9 +1961,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 48.221,
+            "wall_ms_median": 124.56,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 48.221,
+            "cpu_ms_median": 124.56,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a"
@@ -2088,7 +1973,7 @@
     {
       "id": "comprehensive_tag_v2.0.0",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/comprehensive.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/comprehensive.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f",
@@ -2101,9 +1986,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 48.358,
+            "wall_ms_median": 125.151,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 48.358,
+            "cpu_ms_median": 125.151,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f"
@@ -2113,7 +1998,7 @@
     {
       "id": "comprehensive_tag_v2.1.0",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/comprehensive.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/comprehensive.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39",
@@ -2126,9 +2011,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 48.389,
+            "wall_ms_median": 593.939,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 48.389,
+            "cpu_ms_median": 593.939,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39"
@@ -2138,7 +2023,7 @@
     {
       "id": "signed_release_v1",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/signed_releases.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/signed_releases.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:d6bc712db2ffad219e410155850770f2a6f80566",
@@ -2151,9 +2036,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 43.4,
+            "wall_ms_median": 99.427,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 43.4,
+            "cpu_ms_median": 99.427,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:d6bc712db2ffad219e410155850770f2a6f80566"
@@ -2163,7 +2048,7 @@
     {
       "id": "signed_release_v2",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/signed_releases.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/signed_releases.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:90b798f42ee8c20dc94b119fc4139b79a03c3b7e",
@@ -2176,9 +2061,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 43.294,
+            "wall_ms_median": 97.88,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 43.294,
+            "cpu_ms_median": 97.88,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:90b798f42ee8c20dc94b119fc4139b79a03c3b7e"
@@ -2188,7 +2073,7 @@
     {
       "id": "signed_release_v2_1",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/signed_releases.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/signed_releases.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:dc4a4d4c9110311ff03e0a6f218ecfcb3247ac0b",
@@ -2201,9 +2086,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 43.641,
+            "wall_ms_median": 115.514,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 43.641,
+            "cpu_ms_median": 115.514,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:dc4a4d4c9110311ff03e0a6f218ecfcb3247ac0b"
@@ -2213,7 +2098,7 @@
     {
       "id": "tag_types_annotated",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/tag_types.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/tag_types.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:302822701a46791d97f5e372255b7db078a342e2",
@@ -2226,9 +2111,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 38.796,
+            "wall_ms_median": 77.983,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 38.796,
+            "cpu_ms_median": 77.983,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:302822701a46791d97f5e372255b7db078a342e2"
@@ -2238,7 +2123,7 @@
     {
       "id": "comprehensive_branch_feature-a",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/comprehensive.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/comprehensive.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764",
@@ -2251,9 +2136,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 50.202,
+            "wall_ms_median": 146.928,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 50.202,
+            "cpu_ms_median": 146.928,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764"
@@ -2263,7 +2148,7 @@
     {
       "id": "comprehensive_branch_feature-b",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/comprehensive.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/comprehensive.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149",
@@ -2276,9 +2161,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 49.157,
+            "wall_ms_median": 138.562,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 49.157,
+            "cpu_ms_median": 138.562,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149"
@@ -2288,7 +2173,7 @@
     {
       "id": "comprehensive_branch_hotfix",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/comprehensive.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/comprehensive.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720",
@@ -2301,9 +2186,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 49.358,
+            "wall_ms_median": 144.572,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 49.358,
+            "cpu_ms_median": 144.572,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720"
@@ -2313,7 +2198,7 @@
     {
       "id": "comprehensive_branch_main",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/comprehensive.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/comprehensive.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf",
@@ -2326,9 +2211,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 49.428,
+            "wall_ms_median": 141.202,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 49.428,
+            "cpu_ms_median": 141.202,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf"
@@ -2338,7 +2223,7 @@
     {
       "id": "initial_revision",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/merge_commits/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/merge_commits/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:d8693ad0daffe017605f67d723b66e0c213035cb",
@@ -2351,9 +2236,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.968,
+            "wall_ms_median": 35.635,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.968,
+            "cpu_ms_median": 35.635,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:d8693ad0daffe017605f67d723b66e0c213035cb"
@@ -2363,7 +2248,7 @@
     {
       "id": "merge_commits_head",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/merge_commits.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/merge_commits.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:b644fc71fa76537858cb421f5bc6fd2f0f475d88",
@@ -2376,9 +2261,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 42.569,
+            "wall_ms_median": 108.367,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 42.569,
+            "cpu_ms_median": 108.367,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:b644fc71fa76537858cb421f5bc6fd2f0f475d88"
@@ -2388,7 +2273,7 @@
     {
       "id": "merge_revision",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/merge_commits/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/merge_commits/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:395d056259d91ef412349c5f6bc8273724e82d4b",
@@ -2401,9 +2286,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.003,
+            "wall_ms_median": 35.23,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.003,
+            "cpu_ms_median": 35.23,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:395d056259d91ef412349c5f6bc8273724e82d4b"
@@ -2413,7 +2298,7 @@
     {
       "id": "signed_revision_feature",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/signed_revisions.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/signed_revisions.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe",
@@ -2426,9 +2311,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 42.16,
+            "wall_ms_median": 151.993,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 42.16,
+            "cpu_ms_median": 151.993,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -2438,7 +2323,7 @@
     {
       "id": "signed_revision_main",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/signed_revisions.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/signed_revisions.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe",
@@ -2451,9 +2336,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 40.741,
+            "wall_ms_median": 85.242,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 40.741,
+            "cpu_ms_median": 85.242,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -2463,7 +2348,7 @@
     {
       "id": "simple_revision",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git/merge_commits/",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git/merge_commits/",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:395d056259d91ef412349c5f6bc8273724e82d4b",
@@ -2476,9 +2361,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.378,
+            "wall_ms_median": 17.901,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.378,
+            "cpu_ms_median": 17.901,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:395d056259d91ef412349c5f6bc8273724e82d4b"
@@ -2488,7 +2373,7 @@
     {
       "id": "simple_revisions_first",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/simple_revisions.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/simple_revisions.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:de1d62e55c7561f961a70ca57f1da6b3cf16fdb7",
@@ -2501,9 +2386,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 40.542,
+            "wall_ms_median": 93.215,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 40.542,
+            "cpu_ms_median": 93.215,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:de1d62e55c7561f961a70ca57f1da6b3cf16fdb7"
@@ -2513,7 +2398,7 @@
     {
       "id": "simple_revisions_head",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/simple_revisions.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/simple_revisions.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:b7fdd35912b16682ac6e989f75d41870a0f9d904",
@@ -2526,9 +2411,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 39.224,
+            "wall_ms_median": 75.501,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 39.224,
+            "cpu_ms_median": 75.501,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:b7fdd35912b16682ac6e989f75d41870a0f9d904"
@@ -2538,7 +2423,7 @@
     {
       "id": "simple_revisions_second",
       "category": "git/basic",
-      "payload_ref": "/home/runner/work/test-suite/test-suite/payloads/git-repository/simple_revisions.tar.gz",
+      "payload_ref": "D:\\a\\test-suite\\test-suite\\payloads/git-repository/simple_revisions.tar.gz",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:b7fdd35912b16682ac6e989f75d41870a0f9d904",
@@ -2551,9 +2436,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 40.411,
+            "wall_ms_median": 95.026,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 40.411,
+            "cpu_ms_median": 95.026,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:b7fdd35912b16682ac6e989f75d41870a0f9d904"
@@ -2564,7 +2449,7 @@
   "aggregates": {
     "by_implementation": {
       "rust": {
-        "passed": 54,
+        "passed": 53,
         "failed": 0,
         "skipped": 0
       }
