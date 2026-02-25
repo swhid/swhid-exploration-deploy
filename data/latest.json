@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "schema_extensions": [],
   "run": {
-    "id": "2026-02-25T11-33-10Z_016b37",
-    "created_at": "2026-02-25T11:33:10.014263Z",
+    "id": "2026-02-25T17-02-16Z_3df11e",
+    "created_at": "2026-02-25T17:02:16.823852Z",
     "branch": "main",
     "commit": "unknown",
     "runner": {
@@ -72,9 +72,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 22.042,
+            "wall_ms_median": 18.322,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 22.042,
+            "cpu_ms_median": 18.322,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:b909b6e399ef856d8c36fcb662322152e8ff04da"
@@ -85,9 +85,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 16.782,
+            "wall_ms_median": 17.897,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 16.782,
+            "cpu_ms_median": 17.897,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:41c39889d1ec9ed0c66c041ab3d5f3a9f15658456f937bb0141386c9f7352dab"
@@ -110,9 +110,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 8.859,
+            "wall_ms_median": 6.701,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 8.859,
+            "cpu_ms_median": 6.701,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
@@ -123,9 +123,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.265,
+            "wall_ms_median": 7.434,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.265,
+            "cpu_ms_median": 7.434,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:473a0f4c3be8a93681a267e3b1e9a7dcda1185436fe141f7749120a303721813"
@@ -148,9 +148,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 8.008,
+            "wall_ms_median": 7.124,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 8.008,
+            "cpu_ms_median": 7.124,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:f732d2ae1a449d8204f266b59bb35cb4eb0e899d"
@@ -161,9 +161,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.271,
+            "wall_ms_median": 6.032,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.271,
+            "cpu_ms_median": 6.032,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:a0a477f1ecf419c7eaa7fe256c5c12fb03bee86df9a22aad25f85930de203e14"
@@ -186,9 +186,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 15.971,
+            "wall_ms_median": 12.307,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 15.971,
+            "cpu_ms_median": 12.307,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:fc26db1cf2fd25ac90dbf93eef0ebb92b51e8850"
@@ -199,9 +199,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 14.513,
+            "wall_ms_median": 12.078,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 14.513,
+            "cpu_ms_median": 12.078,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:1707c428cf4b5ca56c153dd298b7a2c11e5a5fa63c145c4c9fafbfc37be417b8"
@@ -224,9 +224,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 7.782,
+            "wall_ms_median": 7.321,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 7.782,
+            "cpu_ms_median": 7.321,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:8d1c8b69c3fce7bea45c73efd06983e3c419a92f"
@@ -237,9 +237,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.933,
+            "wall_ms_median": 8.784,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.933,
+            "cpu_ms_median": 8.784,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:5739035bedeba9615f3406b3f5e3e7881d440616941f5b5918eab90f14428019"
@@ -262,9 +262,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 9.097,
+            "wall_ms_median": 7.752,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 9.097,
+            "cpu_ms_median": 7.752,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:a5c8b6044dbae83d6d31ce1d66f09b9900d0556a"
@@ -275,9 +275,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.397,
+            "wall_ms_median": 9.786,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.397,
+            "cpu_ms_median": 9.786,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:b0c2d7d90cf1a9497ef1ea636c3bba1c38d0041275b7a8abea21a62fe29d31d0"
@@ -300,9 +300,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.357,
+            "wall_ms_median": 8.008,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.357,
+            "cpu_ms_median": 8.008,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:08a29ba1a45a68c26a3326af2b32d0d53741b8e2"
@@ -313,9 +313,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 9.993,
+            "wall_ms_median": 10.208,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 9.993,
+            "cpu_ms_median": 10.208,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:358ca252cdba86b8b4a63793bfeae634f48a8d9be80d9f38c11a48ae5978b675"
@@ -338,9 +338,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 8.925,
+            "wall_ms_median": 6.935,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 8.925,
+            "cpu_ms_median": 6.935,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:0cc78f03afecc3168390651ee40b7d605c47373b"
@@ -351,9 +351,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 9.032,
+            "wall_ms_median": 8.259,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 9.032,
+            "cpu_ms_median": 8.259,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:71fc787559ba944bd647614c1973acd2d68d58bc32c2635d80a34a6be6e157f6"
@@ -376,9 +376,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 7.651,
+            "wall_ms_median": 6.922,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 7.651,
+            "cpu_ms_median": 6.922,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:baa3d84af3432fc2165fbeedfd3d01a9ef8f1f8f"
@@ -389,9 +389,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 12.286,
+            "wall_ms_median": 7.439,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 12.286,
+            "cpu_ms_median": 7.439,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:8d350824350b609d7dd52c283008e4fdc093750a7cfe47b0e516bed780454b97"
@@ -414,9 +414,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.761,
+            "wall_ms_median": 6.093,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.761,
+            "cpu_ms_median": 6.093,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:34f1257dbbb7e20b745654c0cd067ff24375d1d7"
@@ -427,9 +427,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 12.681,
+            "wall_ms_median": 6.107,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 12.681,
+            "cpu_ms_median": 6.107,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:0c5577ca2629467c3edfff5fa717739a7576d4bdf0d34563c60700cd9a41c7ad"
@@ -452,9 +452,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.741,
+            "wall_ms_median": 6.972,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.741,
+            "cpu_ms_median": 6.972,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:5ab2f8a4323abafb10abb68657d9d39f1a775057"
@@ -465,9 +465,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.904,
+            "wall_ms_median": 6.278,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.904,
+            "cpu_ms_median": 6.278,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:1301800ffa9c48e2a82cbfda7fe9d17d5605cfa5df7c673639c44d8fcc244a71"
@@ -490,9 +490,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 7.554,
+            "wall_ms_median": 6.085,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 7.554,
+            "cpu_ms_median": 6.085,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:3f2ff2d6cc8f257ffcade7ead1ca4042c0e884b9"
@@ -503,9 +503,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.318,
+            "wall_ms_median": 5.624,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.318,
+            "cpu_ms_median": 5.624,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:5c601de2c229872649d66f9523f82d6b9db10d7cd0ebc6bbd11eaa88fedf6f83"
@@ -528,9 +528,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.85,
+            "wall_ms_median": 7.039,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.85,
+            "cpu_ms_median": 7.039,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:e965047ad7c57865823c7d992b1d046ea66edf78"
@@ -541,9 +541,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 7.464,
+            "wall_ms_median": 7.101,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 7.464,
+            "cpu_ms_median": 7.101,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:66224663d23e6f4d9de9e2c7e6d8764305a92a3830a1a52d3d5f4aa8007b5c39"
@@ -566,9 +566,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 8.246,
+            "wall_ms_median": 6.451,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 8.246,
+            "cpu_ms_median": 6.451,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:c2e47a26313532fc1adeb13e3231cd9909d38fac"
@@ -579,9 +579,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.928,
+            "wall_ms_median": 5.84,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.928,
+            "cpu_ms_median": 5.84,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:878e4fcc1ec6063fee615b8c2527db5ce809b785fdfa454a64f4979cffbf3826"
@@ -604,9 +604,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 37.763,
+            "wall_ms_median": 82.562,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 37.763,
+            "cpu_ms_median": 82.562,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:d564d0bc3dd917926892c55e3706cc116d5b165e"
@@ -617,9 +617,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 37.44,
+            "wall_ms_median": 81.821,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 37.44,
+            "cpu_ms_median": 81.821,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:de6f8a1c4a2e6e2d8fc8b81fd7cb477ab5f58af185b8bb57046052f170fbb222"
@@ -642,9 +642,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.931,
+            "wall_ms_median": 9.484,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.931,
+            "cpu_ms_median": 9.484,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:0bbbf9c7f265450b510251ff215a729f062a763a"
@@ -655,9 +655,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 16.208,
+            "wall_ms_median": 9.591,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 16.208,
+            "cpu_ms_median": 9.591,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:741f4566b80fb94c13dee7e1c10d934f49c4f3bf03b1fc8b2ed6816c97ca9002"
@@ -680,9 +680,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 18.662,
+            "wall_ms_median": 9.488,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 18.662,
+            "cpu_ms_median": 9.488,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:bc3f7f74e7aa5fcb859eaaa3949d5cae29c28ca4"
@@ -693,9 +693,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 12.859,
+            "wall_ms_median": 9.025,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 12.859,
+            "cpu_ms_median": 9.025,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:702b56cb3d129536c6ea6f77eca4bf6a171374774a27a3c638c8439bc4728f7e"
@@ -718,9 +718,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 12.769,
+            "wall_ms_median": 8.037,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 12.769,
+            "cpu_ms_median": 8.037,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:3f09c252c646f8ac591d60e02e41ab09274de7c1"
@@ -731,9 +731,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 11.686,
+            "wall_ms_median": 7.319,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 11.686,
+            "cpu_ms_median": 7.319,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:8b6ff16ed274bf60326d654c3f5bca679a7ced5542be29713bb67b36a1237ac2"
@@ -756,9 +756,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 12.502,
+            "wall_ms_median": 7.874,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 12.502,
+            "cpu_ms_median": 7.874,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:98e24c042d1ed01420c09c873d8b5e4e50c400bf"
@@ -769,9 +769,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 14.959,
+            "wall_ms_median": 7.279,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 14.959,
+            "cpu_ms_median": 7.279,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:977e5f1ebb683f9006fb828c1a5e8fe0155a7211694d123db2a591d640460ad2"
@@ -794,9 +794,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.826,
+            "wall_ms_median": 7.836,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.826,
+            "cpu_ms_median": 7.836,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:32798ac33695bd283d6e650c61a40bc2dbda3a2e"
@@ -807,9 +807,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 12.584,
+            "wall_ms_median": 7.053,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 12.584,
+            "cpu_ms_median": 7.053,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:6986f3d18106aecd3d4e1171eb5e38f02c05a63239066a6d6e798a4338ade3a6"
@@ -832,9 +832,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 18.52,
+            "wall_ms_median": 8.947,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 18.52,
+            "cpu_ms_median": 8.947,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:8a75e785dc497ca2fd150e8f32e13656eb3b6f88"
@@ -845,9 +845,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 18.034,
+            "wall_ms_median": 8.914,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 18.034,
+            "cpu_ms_median": 8.914,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:8488b95fe3587e0224e652fad205810531555542e8cc7e82ce2fc4d41481fc41"
@@ -870,9 +870,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 17.147,
+            "wall_ms_median": 9.202,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 17.147,
+            "cpu_ms_median": 9.202,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:e74c2821d3ed7d865d81068116994c209988dac2"
@@ -883,9 +883,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 16.359,
+            "wall_ms_median": 8.592,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 16.359,
+            "cpu_ms_median": 8.592,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:e2f6aa942f021772f074a256b27468c791e9f2e5855aa4d9a76cbb46bd2871ce"
@@ -908,9 +908,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 14.086,
+            "wall_ms_median": 7.776,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 14.086,
+            "cpu_ms_median": 7.776,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:367667c0665514d6e9aacf236eca852ae92c0cf6"
@@ -921,9 +921,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.192,
+            "wall_ms_median": 7.124,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.192,
+            "cpu_ms_median": 7.124,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:ef3635807e9e5af2a4188298de95f4e1a2300295a7d7629ce07b803fe4d127d9"
@@ -946,9 +946,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 15.387,
+            "wall_ms_median": 9.517,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 15.387,
+            "cpu_ms_median": 9.517,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:6a805bfd6380e2e1e4412ac66933ebd244fb9d72"
@@ -959,9 +959,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.003,
+            "wall_ms_median": 9.326,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.003,
+            "cpu_ms_median": 9.326,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:fad4b42e6c2b590c9a432a5976d37215cf291c76c77f11cf57d65733d3ce7db6"
@@ -984,9 +984,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 17.661,
+            "wall_ms_median": 9.805,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 17.661,
+            "cpu_ms_median": 9.805,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:cfed4cb9781dbec4a5d0184bd2f671dc350137ca"
@@ -997,9 +997,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 17.874,
+            "wall_ms_median": 9.94,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 17.874,
+            "cpu_ms_median": 9.94,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:134a6aca679b1fc4107adb1237e4b020150510d328c257721ee85e4700d712ce"
@@ -1022,9 +1022,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.892,
+            "wall_ms_median": 8.118,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.892,
+            "cpu_ms_median": 8.118,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:09b68fff5b158f616bd76d5e82836dafc6b96aaf"
@@ -1035,9 +1035,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.892,
+            "wall_ms_median": 7.668,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.892,
+            "cpu_ms_median": 7.668,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:fbe5726704829cb41375d567ebdd1a0e313b2a045551b05ef77a0c47a8f2823d"
@@ -1060,9 +1060,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 14.176,
+            "wall_ms_median": 9.046,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 14.176,
+            "cpu_ms_median": 9.046,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:ee7194e754e8a911d41b83a06c10a22b7266d1bd"
@@ -1073,9 +1073,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 12.451,
+            "wall_ms_median": 8.291,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 12.451,
+            "cpu_ms_median": 8.291,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:03ea1f801e73041096c6e699fa1f46913cc478973e5430079aa72efe21e25d7b"
@@ -1098,9 +1098,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.162,
+            "wall_ms_median": 11.505,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.162,
+            "cpu_ms_median": 11.505,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:53d793e1a86c17e1c120e8cf1d9cec788a5c360f"
@@ -1111,9 +1111,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.313,
+            "wall_ms_median": 12.171,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.313,
+            "cpu_ms_median": 12.171,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:4fd288829483b6f50c616f044a7bdb4375f4d6178a71650208efead7725761c1"
@@ -1136,9 +1136,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 71.33,
+            "wall_ms_median": 115.082,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 71.33,
+            "cpu_ms_median": 115.082,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:9985c2da7ec2950ae93a4bc81d09bbe21ac3d423"
@@ -1161,9 +1161,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 39.583,
+            "wall_ms_median": 34.754,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 39.583,
+            "cpu_ms_median": 34.754,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:f72a5cda8a9e692733f28dd97f6a497789fe4f1a"
@@ -1186,9 +1186,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 57.818,
+            "wall_ms_median": 45.348,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 57.818,
+            "cpu_ms_median": 45.348,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:b1a1cb66e7a27f7a6b2424e953bd21d39c975f78"
@@ -1211,9 +1211,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 110.169,
+            "wall_ms_median": 162.084,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 110.169,
+            "cpu_ms_median": 162.084,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:3ed4bb336012f1b2fa16fbf57c55f90c29cdf173"
@@ -1236,9 +1236,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 58.237,
+            "wall_ms_median": 80.103,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 58.237,
+            "cpu_ms_median": 80.103,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:ef2430afbf4735f02b73c79bc4a53af6da5c6d18"
@@ -1261,9 +1261,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 64.459,
+            "wall_ms_median": 47.92,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 64.459,
+            "cpu_ms_median": 47.92,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:1109043ec17eeb3bf7d657689ab60336c901fde9"
@@ -1286,9 +1286,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 117.367,
+            "wall_ms_median": 92.192,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 117.367,
+            "cpu_ms_median": 92.192,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:8f0d48de532ad98671b25f6b069ee3003f46a505"
@@ -1311,9 +1311,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 42.743,
+            "wall_ms_median": 27.114,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 42.743,
+            "cpu_ms_median": 27.114,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:92683e1879de34dc894fa28d4854e9437257dee2"
@@ -1336,9 +1336,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 69.467,
+            "wall_ms_median": 132.076,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 69.467,
+            "cpu_ms_median": 132.076,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:d66db619f7d82b4bc6524810d045d731ae099ef7"
@@ -1361,9 +1361,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 37.078,
+            "wall_ms_median": 40.753,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 37.078,
+            "cpu_ms_median": 40.753,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:a08106ee77186a6657c1ac9214cda20e728e66a2"
@@ -1386,9 +1386,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 91.153,
+            "wall_ms_median": 86.476,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 91.153,
+            "cpu_ms_median": 86.476,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:9497c331aac82899611d1c2e9a0eef1d3c161c8d"
@@ -1411,9 +1411,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 116.006,
+            "wall_ms_median": 108.181,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 116.006,
+            "cpu_ms_median": 108.181,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:e44a647204ef944dd0fd28302a0d65124b93cd36"
@@ -1436,9 +1436,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 79.458,
+            "wall_ms_median": 77.116,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 79.458,
+            "cpu_ms_median": 77.116,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:604524a5decb4c927258eb4d9f5a121c48218bd4"
@@ -1448,7 +1448,7 @@
     {
       "id": "comprehensive_branch_develop",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:5e8a55e005e0003cd976ac876b2a598bf0d91362",
@@ -1461,9 +1461,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.461,
+            "wall_ms_median": 14.414,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.461,
+            "cpu_ms_median": 14.414,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:5e8a55e005e0003cd976ac876b2a598bf0d91362"
@@ -1473,7 +1473,7 @@
     {
       "id": "comprehensive_branch_feature-a",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764",
@@ -1486,9 +1486,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 14.003,
+            "wall_ms_median": 13.48,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 14.003,
+            "cpu_ms_median": 13.48,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764"
@@ -1498,7 +1498,7 @@
     {
       "id": "comprehensive_branch_feature-b",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149",
@@ -1511,9 +1511,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.569,
+            "wall_ms_median": 12.92,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.569,
+            "cpu_ms_median": 12.92,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149"
@@ -1523,7 +1523,7 @@
     {
       "id": "comprehensive_branch_hotfix",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720",
@@ -1536,9 +1536,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 16.844,
+            "wall_ms_median": 14.069,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 16.844,
+            "cpu_ms_median": 14.069,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720"
@@ -1548,7 +1548,7 @@
     {
       "id": "comprehensive_branch_main",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf",
@@ -1561,9 +1561,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 13.436,
+            "wall_ms_median": 15.475,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 13.436,
+            "cpu_ms_median": 15.475,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf"
@@ -1573,7 +1573,7 @@
     {
       "id": "comprehensive_tag_v1.0.0",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4",
@@ -1586,9 +1586,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 7.684,
+            "wall_ms_median": 7.474,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 7.684,
+            "cpu_ms_median": 7.474,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4"
@@ -1598,7 +1598,7 @@
     {
       "id": "comprehensive_tag_v1.0.1",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54",
@@ -1611,9 +1611,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 10.113,
+            "wall_ms_median": 7.963,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 10.113,
+            "cpu_ms_median": 7.963,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54"
@@ -1623,7 +1623,7 @@
     {
       "id": "comprehensive_tag_v1.1.0",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a",
@@ -1636,9 +1636,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 8.077,
+            "wall_ms_median": 8.456,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 8.077,
+            "cpu_ms_median": 8.456,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a"
@@ -1648,7 +1648,7 @@
     {
       "id": "comprehensive_tag_v2.0.0",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f",
@@ -1661,9 +1661,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 9.414,
+            "wall_ms_median": 7.923,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 9.414,
+            "cpu_ms_median": 7.923,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f"
@@ -1673,7 +1673,7 @@
     {
       "id": "comprehensive_tag_v2.1.0",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_iv_sd4t4/comprehensive",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_mf97odfw/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39",
@@ -1686,9 +1686,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 8.688,
+            "wall_ms_median": 8.384,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 8.688,
+            "cpu_ms_median": 8.384,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39"
@@ -1711,9 +1711,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 80.268,
+            "wall_ms_median": 64.947,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 80.268,
+            "cpu_ms_median": 64.947,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:5c9c3c9be880d0ac89707304017006716d6749a6"
@@ -1736,9 +1736,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 136.514,
+            "wall_ms_median": 133.171,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 136.514,
+            "cpu_ms_median": 133.171,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:1a358894eaa5f6f9727168d9280e992af1a076b4"
@@ -1748,7 +1748,7 @@
     {
       "id": "signed_revisions_branch_main",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_n95tvb4l/signed_revisions",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_tde7z5r2/signed_revisions",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe",
@@ -1761,9 +1761,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 22.084,
+            "wall_ms_median": 15.41,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 22.084,
+            "cpu_ms_median": 15.41,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -1773,7 +1773,7 @@
     {
       "id": "signed_revisions_branch_signed-feature",
       "category": "unknown",
-      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_n95tvb4l/signed_revisions",
+      "payload_ref": "/var/folders/q_/pk8v8g4n3qq2gcnsvqjc3sd40000gn/T/swhid_test_tde7z5r2/signed_revisions",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe",
@@ -1786,9 +1786,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 31.155,
+            "wall_ms_median": 14.922,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 31.155,
+            "cpu_ms_median": 14.922,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -1811,9 +1811,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 51.179,
+            "wall_ms_median": 47.742,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 51.179,
+            "cpu_ms_median": 47.742,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:2f1450c1be7a6945b69d2c3724ac30a3be025e92"
@@ -1836,9 +1836,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 81.094,
+            "wall_ms_median": 91.963,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 81.094,
+            "cpu_ms_median": 91.963,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:98a720761e59ff1704a84b38e0f3f683a6c2d5d9"
@@ -1861,9 +1861,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 6.483,
+            "wall_ms_median": 8.243,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 6.483,
+            "cpu_ms_median": 8.243,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:976993709ac2245f5128a5205653b26eab703fe1"
@@ -1886,9 +1886,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 6.175,
+            "wall_ms_median": 8.079,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 6.175,
+            "cpu_ms_median": 8.079,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:a7c9921fab18efe11882532bdf751f44a704917a"
@@ -1911,9 +1911,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 22.711,
+            "wall_ms_median": 28.861,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 22.711,
+            "cpu_ms_median": 28.861,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4"
@@ -1936,9 +1936,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 21.555,
+            "wall_ms_median": 26.754,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 21.555,
+            "cpu_ms_median": 26.754,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54"
@@ -1961,9 +1961,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 33.077,
+            "wall_ms_median": 32.854,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 33.077,
+            "cpu_ms_median": 32.854,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a"
@@ -1986,9 +1986,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 34.736,
+            "wall_ms_median": 27.595,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 34.736,
+            "cpu_ms_median": 27.595,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f"
@@ -2011,9 +2011,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 41.77,
+            "wall_ms_median": 30.267,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 41.77,
+            "cpu_ms_median": 30.267,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39"
@@ -2036,9 +2036,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 28.0,
+            "wall_ms_median": 25.974,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 28.0,
+            "cpu_ms_median": 25.974,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:d6bc712db2ffad219e410155850770f2a6f80566"
@@ -2061,9 +2061,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 28.778,
+            "wall_ms_median": 24.328,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 28.778,
+            "cpu_ms_median": 24.328,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:90b798f42ee8c20dc94b119fc4139b79a03c3b7e"
@@ -2086,9 +2086,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.78,
+            "wall_ms_median": 25.211,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.78,
+            "cpu_ms_median": 25.211,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:dc4a4d4c9110311ff03e0a6f218ecfcb3247ac0b"
@@ -2111,9 +2111,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 21.521,
+            "wall_ms_median": 19.987,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 21.521,
+            "cpu_ms_median": 19.987,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:302822701a46791d97f5e372255b7db078a342e2"
@@ -2136,9 +2136,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 35.022,
+            "wall_ms_median": 35.383,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 35.022,
+            "cpu_ms_median": 35.383,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764"
@@ -2161,9 +2161,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 35.59,
+            "wall_ms_median": 36.865,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 35.59,
+            "cpu_ms_median": 36.865,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149"
@@ -2186,9 +2186,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 50.193,
+            "wall_ms_median": 36.109,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 50.193,
+            "cpu_ms_median": 36.109,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720"
@@ -2211,9 +2211,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 42.976,
+            "wall_ms_median": 36.596,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 42.976,
+            "cpu_ms_median": 36.596,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf"
@@ -2236,9 +2236,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 15.129,
+            "wall_ms_median": 16.422,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 15.129,
+            "cpu_ms_median": 16.422,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:d8693ad0daffe017605f67d723b66e0c213035cb"
@@ -2261,9 +2261,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 29.357,
+            "wall_ms_median": 40.923,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 29.357,
+            "cpu_ms_median": 40.923,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:b644fc71fa76537858cb421f5bc6fd2f0f475d88"
@@ -2286,9 +2286,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 20.422,
+            "wall_ms_median": 20.116,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 20.422,
+            "cpu_ms_median": 20.116,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:395d056259d91ef412349c5f6bc8273724e82d4b"
@@ -2311,9 +2311,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.189,
+            "wall_ms_median": 28.596,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.189,
+            "cpu_ms_median": 28.596,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -2336,9 +2336,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 22.058,
+            "wall_ms_median": 21.785,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 22.058,
+            "cpu_ms_median": 21.785,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -2361,9 +2361,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 6.532,
+            "wall_ms_median": 8.733,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 6.532,
+            "cpu_ms_median": 8.733,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:395d056259d91ef412349c5f6bc8273724e82d4b"
@@ -2386,9 +2386,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 21.552,
+            "wall_ms_median": 25.807,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 21.552,
+            "cpu_ms_median": 25.807,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:de1d62e55c7561f961a70ca57f1da6b3cf16fdb7"
@@ -2411,9 +2411,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 15.465,
+            "wall_ms_median": 18.865,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 15.465,
+            "cpu_ms_median": 18.865,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:b7fdd35912b16682ac6e989f75d41870a0f9d904"
@@ -2436,9 +2436,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 19.946,
+            "wall_ms_median": 23.804,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 19.946,
+            "cpu_ms_median": 23.804,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:b7fdd35912b16682ac6e989f75d41870a0f9d904"
