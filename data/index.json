@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-02-26T12:37:37Z",
+  "last_updated": "2026-02-26T12:55:30Z",
   "total_runs": 3,
   "total_tests": 243,
-  "total_results": 450,
-  "total_passed": 390,
-  "total_failed": 0,
+  "total_results": 486,
+  "total_passed": 420,
+  "total_failed": 6,
   "total_skipped": 60,
-  "overall_pass_rate": 86.67,
-  "overall_fail_rate": 0.0,
-  "overall_skip_rate": 13.33,
+  "overall_pass_rate": 86.42,
+  "overall_fail_rate": 1.23,
+  "overall_skip_rate": 12.35,
   "implementations": [
     "rust",
     "rust_v1",
@@ -16,58 +16,58 @@
   ],
   "platform_stats": {
     "Windows": {
-      "total": 150,
-      "passed": 130,
-      "failed": 0,
+      "total": 162,
+      "passed": 140,
+      "failed": 2,
       "skipped": 20,
-      "pass_rate": 86.67,
-      "fail_rate": 0.0,
-      "skip_rate": 13.33
-    },
-    "macOS": {
-      "total": 150,
-      "passed": 130,
-      "failed": 0,
-      "skipped": 20,
-      "pass_rate": 86.67,
-      "fail_rate": 0.0,
-      "skip_rate": 13.33
+      "pass_rate": 86.42,
+      "fail_rate": 1.23,
+      "skip_rate": 12.35
     },
     "Ubuntu": {
-      "total": 150,
-      "passed": 130,
-      "failed": 0,
+      "total": 162,
+      "passed": 140,
+      "failed": 2,
       "skipped": 20,
-      "pass_rate": 86.67,
-      "fail_rate": 0.0,
-      "skip_rate": 13.33
+      "pass_rate": 86.42,
+      "fail_rate": 1.23,
+      "skip_rate": 12.35
+    },
+    "macOS": {
+      "total": 162,
+      "passed": 140,
+      "failed": 2,
+      "skipped": 20,
+      "pass_rate": 86.42,
+      "fail_rate": 1.23,
+      "skip_rate": 12.35
     }
   },
   "impl_platform_matrix": {
     "rust_v1": {
       "macOS": {
-        "passed": 49,
+        "passed": 61,
         "failed": 0,
         "skipped": 0,
-        "total": 49,
+        "total": 61,
         "pass_rate": 100.0,
         "fail_rate": 0.0,
         "skip_rate": 0.0
       },
       "Ubuntu": {
-        "passed": 49,
+        "passed": 61,
         "failed": 0,
         "skipped": 0,
-        "total": 49,
+        "total": 61,
         "pass_rate": 100.0,
         "fail_rate": 0.0,
         "skip_rate": 0.0
       },
       "Windows": {
-        "passed": 49,
+        "passed": 61,
         "failed": 0,
         "skipped": 0,
-        "total": 49,
+        "total": 61,
         "pass_rate": 100.0,
         "fail_rate": 0.0,
         "skip_rate": 0.0
@@ -75,57 +75,57 @@
     },
     "rust_v2": {
       "macOS": {
-        "passed": 49,
-        "failed": 0,
+        "passed": 59,
+        "failed": 2,
         "skipped": 20,
-        "total": 69,
-        "pass_rate": 71.01,
-        "fail_rate": 0.0,
-        "skip_rate": 28.99
+        "total": 81,
+        "pass_rate": 72.84,
+        "fail_rate": 2.47,
+        "skip_rate": 24.69
       },
       "Ubuntu": {
-        "passed": 49,
-        "failed": 0,
+        "passed": 59,
+        "failed": 2,
         "skipped": 20,
-        "total": 69,
-        "pass_rate": 71.01,
-        "fail_rate": 0.0,
-        "skip_rate": 28.99
+        "total": 81,
+        "pass_rate": 72.84,
+        "fail_rate": 2.47,
+        "skip_rate": 24.69
       },
       "Windows": {
-        "passed": 49,
-        "failed": 0,
+        "passed": 59,
+        "failed": 2,
         "skipped": 20,
-        "total": 69,
-        "pass_rate": 71.01,
-        "fail_rate": 0.0,
-        "skip_rate": 28.99
+        "total": 81,
+        "pass_rate": 72.84,
+        "fail_rate": 2.47,
+        "skip_rate": 24.69
       }
     },
     "rust": {
       "macOS": {
-        "passed": 32,
+        "passed": 20,
         "failed": 0,
         "skipped": 0,
-        "total": 32,
+        "total": 20,
         "pass_rate": 100.0,
         "fail_rate": 0.0,
         "skip_rate": 0.0
       },
       "Ubuntu": {
-        "passed": 32,
+        "passed": 20,
         "failed": 0,
         "skipped": 0,
-        "total": 32,
+        "total": 20,
         "pass_rate": 100.0,
         "fail_rate": 0.0,
         "skip_rate": 0.0
       },
       "Windows": {
-        "passed": 32,
+        "passed": 20,
         "failed": 0,
         "skipped": 0,
-        "total": 32,
+        "total": 20,
         "pass_rate": 100.0,
         "fail_rate": 0.0,
         "skip_rate": 0.0
@@ -134,46 +134,46 @@
   },
   "runs": [
     {
-      "id": "2026-02-26T12-36-59Z_81a302",
-      "created_at": "2026-02-26T12:36:59.956542Z",
+      "id": "2026-02-26T12-54-55Z_dffbb8",
+      "created_at": "2026-02-26T12:54:55.629761Z",
       "branch": "main",
       "commit": "unknown",
       "platform": "Windows",
-      "pass_rate": 86.67,
-      "passed": 130,
-      "failed": 0,
+      "pass_rate": 86.42,
+      "passed": 140,
+      "failed": 2,
       "skipped": 20,
-      "total": 150,
-      "failed_rate": 0.0,
-      "skipped_rate": 13.33
+      "total": 162,
+      "failed_rate": 1.23,
+      "skipped_rate": 12.35
     },
     {
-      "id": "2026-02-26T12-33-12Z_27570e",
-      "created_at": "2026-02-26T12:33:12.363685Z",
-      "branch": "main",
-      "commit": "unknown",
-      "platform": "macOS",
-      "pass_rate": 86.67,
-      "passed": 130,
-      "failed": 0,
-      "skipped": 20,
-      "total": 150,
-      "failed_rate": 0.0,
-      "skipped_rate": 13.33
-    },
-    {
-      "id": "2026-02-26T12-33-11Z_9d9e23",
-      "created_at": "2026-02-26T12:33:11.718681Z",
+      "id": "2026-02-26T12-49-26Z_2f4529",
+      "created_at": "2026-02-26T12:49:26.623128Z",
       "branch": "main",
       "commit": "unknown",
       "platform": "Ubuntu",
-      "pass_rate": 86.67,
-      "passed": 130,
-      "failed": 0,
+      "pass_rate": 86.42,
+      "passed": 140,
+      "failed": 2,
       "skipped": 20,
-      "total": 150,
-      "failed_rate": 0.0,
-      "skipped_rate": 13.33
+      "total": 162,
+      "failed_rate": 1.23,
+      "skipped_rate": 12.35
+    },
+    {
+      "id": "2026-02-26T12-49-21Z_6a531f",
+      "created_at": "2026-02-26T12:49:21.356410Z",
+      "branch": "main",
+      "commit": "unknown",
+      "platform": "macOS",
+      "pass_rate": 86.42,
+      "passed": 140,
+      "failed": 2,
+      "skipped": 20,
+      "total": 162,
+      "failed_rate": 1.23,
+      "skipped_rate": 12.35
     }
   ]
 }
