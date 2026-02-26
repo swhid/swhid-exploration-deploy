@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "schema_extensions": [],
   "run": {
-    "id": "2026-02-26T18-18-40Z_1833c9",
-    "created_at": "2026-02-26T18:18:40.519020Z",
+    "id": "2026-02-26T19-03-16Z_2ac15e",
+    "created_at": "2026-02-26T19:03:16.294293Z",
     "branch": "main",
     "commit": "unknown",
     "runner": {
@@ -25,8 +25,8 @@
     {
       "id": "rust",
       "version": "1.0.0",
-      "git_sha": "3e4f5dfcd926",
-      "git": "3e4f5dfcd926",
+      "git_sha": "471e4831ff7f",
+      "git": "471e4831ff7f",
       "language": "rust",
       "api_version": "1.0",
       "capabilities": {
@@ -72,9 +72,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 4.538,
+            "wall_ms_median": 4.497,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 4.538,
+            "cpu_ms_median": 4.497,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:b909b6e399ef856d8c36fcb662322152e8ff04da"
@@ -85,9 +85,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 4.389,
+            "wall_ms_median": 4.358,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 4.389,
+            "cpu_ms_median": 4.358,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:41c39889d1ec9ed0c66c041ab3d5f3a9f15658456f937bb0141386c9f7352dab"
@@ -110,9 +110,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.165,
+            "wall_ms_median": 2.163,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.165,
+            "cpu_ms_median": 2.163,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
@@ -123,9 +123,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.944,
+            "wall_ms_median": 1.942,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.944,
+            "cpu_ms_median": 1.942,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:473a0f4c3be8a93681a267e3b1e9a7dcda1185436fe141f7749120a303721813"
@@ -148,9 +148,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.125,
+            "wall_ms_median": 2.129,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.125,
+            "cpu_ms_median": 2.129,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:f732d2ae1a449d8204f266b59bb35cb4eb0e899d"
@@ -161,9 +161,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.891,
+            "wall_ms_median": 1.913,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.891,
+            "cpu_ms_median": 1.913,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:a0a477f1ecf419c7eaa7fe256c5c12fb03bee86df9a22aad25f85930de203e14"
@@ -186,9 +186,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 5.581,
+            "wall_ms_median": 5.619,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 5.581,
+            "cpu_ms_median": 5.619,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:fc26db1cf2fd25ac90dbf93eef0ebb92b51e8850"
@@ -199,9 +199,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 3.491,
+            "wall_ms_median": 3.5,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 3.491,
+            "cpu_ms_median": 3.5,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:1707c428cf4b5ca56c153dd298b7a2c11e5a5fa63c145c4c9fafbfc37be417b8"
@@ -224,9 +224,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.176,
+            "wall_ms_median": 2.028,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.176,
+            "cpu_ms_median": 2.028,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:8d1c8b69c3fce7bea45c73efd06983e3c419a92f"
@@ -237,9 +237,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.927,
+            "wall_ms_median": 1.979,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.927,
+            "cpu_ms_median": 1.979,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:5739035bedeba9615f3406b3f5e3e7881d440616941f5b5918eab90f14428019"
@@ -262,9 +262,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.105,
+            "wall_ms_median": 2.084,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.105,
+            "cpu_ms_median": 2.084,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:a5c8b6044dbae83d6d31ce1d66f09b9900d0556a"
@@ -275,9 +275,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.878,
+            "wall_ms_median": 1.834,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.878,
+            "cpu_ms_median": 1.834,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:b0c2d7d90cf1a9497ef1ea636c3bba1c38d0041275b7a8abea21a62fe29d31d0"
@@ -300,9 +300,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.199,
+            "wall_ms_median": 2.114,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.199,
+            "cpu_ms_median": 2.114,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:08a29ba1a45a68c26a3326af2b32d0d53741b8e2"
@@ -313,9 +313,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.149,
+            "wall_ms_median": 1.871,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.149,
+            "cpu_ms_median": 1.871,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:358ca252cdba86b8b4a63793bfeae634f48a8d9be80d9f38c11a48ae5978b675"
@@ -338,9 +338,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.178,
+            "wall_ms_median": 2.078,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.178,
+            "cpu_ms_median": 2.078,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:0cc78f03afecc3168390651ee40b7d605c47373b"
@@ -351,9 +351,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.945,
+            "wall_ms_median": 2.062,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.945,
+            "cpu_ms_median": 2.062,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:71fc787559ba944bd647614c1973acd2d68d58bc32c2635d80a34a6be6e157f6"
@@ -376,9 +376,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.11,
+            "wall_ms_median": 2.17,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.11,
+            "cpu_ms_median": 2.17,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:baa3d84af3432fc2165fbeedfd3d01a9ef8f1f8f"
@@ -389,9 +389,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.913,
+            "wall_ms_median": 1.889,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.913,
+            "cpu_ms_median": 1.889,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:8d350824350b609d7dd52c283008e4fdc093750a7cfe47b0e516bed780454b97"
@@ -414,9 +414,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.105,
+            "wall_ms_median": 2.057,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.105,
+            "cpu_ms_median": 2.057,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:34f1257dbbb7e20b745654c0cd067ff24375d1d7"
@@ -427,9 +427,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.918,
+            "wall_ms_median": 2.11,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.918,
+            "cpu_ms_median": 2.11,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:0c5577ca2629467c3edfff5fa717739a7576d4bdf0d34563c60700cd9a41c7ad"
@@ -452,9 +452,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.162,
+            "wall_ms_median": 2.082,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.162,
+            "cpu_ms_median": 2.082,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:5ab2f8a4323abafb10abb68657d9d39f1a775057"
@@ -465,9 +465,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.953,
+            "wall_ms_median": 2.053,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.953,
+            "cpu_ms_median": 2.053,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:1301800ffa9c48e2a82cbfda7fe9d17d5605cfa5df7c673639c44d8fcc244a71"
@@ -490,9 +490,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.176,
+            "wall_ms_median": 2.022,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.176,
+            "cpu_ms_median": 2.022,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:3f2ff2d6cc8f257ffcade7ead1ca4042c0e884b9"
@@ -503,9 +503,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.996,
+            "wall_ms_median": 2.213,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.996,
+            "cpu_ms_median": 2.213,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:5c601de2c229872649d66f9523f82d6b9db10d7cd0ebc6bbd11eaa88fedf6f83"
@@ -528,9 +528,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.94,
+            "wall_ms_median": 1.998,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.94,
+            "cpu_ms_median": 1.998,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:e965047ad7c57865823c7d992b1d046ea66edf78"
@@ -541,9 +541,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.832,
+            "wall_ms_median": 2.032,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.832,
+            "cpu_ms_median": 2.032,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:66224663d23e6f4d9de9e2c7e6d8764305a92a3830a1a52d3d5f4aa8007b5c39"
@@ -566,9 +566,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 2.078,
+            "wall_ms_median": 2.216,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 2.078,
+            "cpu_ms_median": 2.216,
             "max_rss_kb": null
           },
           "swhid": "swh:1:cnt:c2e47a26313532fc1adeb13e3231cd9909d38fac"
@@ -579,9 +579,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 1.837,
+            "wall_ms_median": 2.008,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 1.837,
+            "cpu_ms_median": 2.008,
             "max_rss_kb": null
           },
           "swhid": "swh:2:cnt:878e4fcc1ec6063fee615b8c2527db5ce809b785fdfa454a64f4979cffbf3826"
@@ -604,9 +604,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.65,
+            "wall_ms_median": 26.723,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.65,
+            "cpu_ms_median": 26.723,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:d564d0bc3dd917926892c55e3706cc116d5b165e"
@@ -617,9 +617,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.399,
+            "wall_ms_median": 26.525,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.399,
+            "cpu_ms_median": 26.525,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:de6f8a1c4a2e6e2d8fc8b81fd7cb477ab5f58af185b8bb57046052f170fbb222"
@@ -642,9 +642,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.162,
+            "wall_ms_median": 27.055,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.162,
+            "cpu_ms_median": 27.055,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:0bbbf9c7f265450b510251ff215a729f062a763a"
@@ -655,9 +655,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.798,
+            "wall_ms_median": 26.763,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.798,
+            "cpu_ms_median": 26.763,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:741f4566b80fb94c13dee7e1c10d934f49c4f3bf03b1fc8b2ed6816c97ca9002"
@@ -680,9 +680,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.574,
+            "wall_ms_median": 26.652,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.574,
+            "cpu_ms_median": 26.652,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:bc3f7f74e7aa5fcb859eaaa3949d5cae29c28ca4"
@@ -693,9 +693,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.215,
+            "wall_ms_median": 26.999,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.215,
+            "cpu_ms_median": 26.999,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:702b56cb3d129536c6ea6f77eca4bf6a171374774a27a3c638c8439bc4728f7e"
@@ -718,9 +718,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.312,
+            "wall_ms_median": 26.789,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.312,
+            "cpu_ms_median": 26.789,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:3f09c252c646f8ac591d60e02e41ab09274de7c1"
@@ -731,9 +731,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.341,
+            "wall_ms_median": 38.062,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.341,
+            "cpu_ms_median": 38.062,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:8b6ff16ed274bf60326d654c3f5bca679a7ced5542be29713bb67b36a1237ac2"
@@ -756,9 +756,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.609,
+            "wall_ms_median": 31.378,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.609,
+            "cpu_ms_median": 31.378,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:98e24c042d1ed01420c09c873d8b5e4e50c400bf"
@@ -769,9 +769,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.536,
+            "wall_ms_median": 27.614,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.536,
+            "cpu_ms_median": 27.614,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:977e5f1ebb683f9006fb828c1a5e8fe0155a7211694d123db2a591d640460ad2"
@@ -794,9 +794,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.039,
+            "wall_ms_median": 26.45,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.039,
+            "cpu_ms_median": 26.45,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:32798ac33695bd283d6e650c61a40bc2dbda3a2e"
@@ -807,9 +807,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.849,
+            "wall_ms_median": 26.431,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.849,
+            "cpu_ms_median": 26.431,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:6986f3d18106aecd3d4e1171eb5e38f02c05a63239066a6d6e798a4338ade3a6"
@@ -832,9 +832,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.16,
+            "wall_ms_median": 27.369,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.16,
+            "cpu_ms_median": 27.369,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:8a75e785dc497ca2fd150e8f32e13656eb3b6f88"
@@ -845,9 +845,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.032,
+            "wall_ms_median": 26.916,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.032,
+            "cpu_ms_median": 26.916,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:8488b95fe3587e0224e652fad205810531555542e8cc7e82ce2fc4d41481fc41"
@@ -870,9 +870,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.798,
+            "wall_ms_median": 27.5,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.798,
+            "cpu_ms_median": 27.5,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:e74c2821d3ed7d865d81068116994c209988dac2"
@@ -883,9 +883,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.494,
+            "wall_ms_median": 27.523,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.494,
+            "cpu_ms_median": 27.523,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:e2f6aa942f021772f074a256b27468c791e9f2e5855aa4d9a76cbb46bd2871ce"
@@ -908,9 +908,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.63,
+            "wall_ms_median": 26.747,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.63,
+            "cpu_ms_median": 26.747,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:367667c0665514d6e9aacf236eca852ae92c0cf6"
@@ -921,9 +921,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.205,
+            "wall_ms_median": 26.369,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.205,
+            "cpu_ms_median": 26.369,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:ef3635807e9e5af2a4188298de95f4e1a2300295a7d7629ce07b803fe4d127d9"
@@ -946,9 +946,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.078,
+            "wall_ms_median": 27.761,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.078,
+            "cpu_ms_median": 27.761,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:6a805bfd6380e2e1e4412ac66933ebd244fb9d72"
@@ -959,9 +959,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.138,
+            "wall_ms_median": 27.744,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.138,
+            "cpu_ms_median": 27.744,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:fad4b42e6c2b590c9a432a5976d37215cf291c76c77f11cf57d65733d3ce7db6"
@@ -984,9 +984,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 34.942,
+            "wall_ms_median": 28.047,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 34.942,
+            "cpu_ms_median": 28.047,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:cfed4cb9781dbec4a5d0184bd2f671dc350137ca"
@@ -997,9 +997,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 28.221,
+            "wall_ms_median": 27.724,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 28.221,
+            "cpu_ms_median": 27.724,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:134a6aca679b1fc4107adb1237e4b020150510d328c257721ee85e4700d712ce"
@@ -1022,9 +1022,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.749,
+            "wall_ms_median": 35.355,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.749,
+            "cpu_ms_median": 35.355,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:09b68fff5b158f616bd76d5e82836dafc6b96aaf"
@@ -1035,9 +1035,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.441,
+            "wall_ms_median": 26.55,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.441,
+            "cpu_ms_median": 26.55,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:fbe5726704829cb41375d567ebdd1a0e313b2a045551b05ef77a0c47a8f2823d"
@@ -1060,9 +1060,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.751,
+            "wall_ms_median": 45.064,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.751,
+            "cpu_ms_median": 45.064,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:ee7194e754e8a911d41b83a06c10a22b7266d1bd"
@@ -1073,9 +1073,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.476,
+            "wall_ms_median": 44.809,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.476,
+            "cpu_ms_median": 44.809,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:03ea1f801e73041096c6e699fa1f46913cc478973e5430079aa72efe21e25d7b"
@@ -1098,9 +1098,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 28.341,
+            "wall_ms_median": 27.406,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 28.341,
+            "cpu_ms_median": 27.406,
             "max_rss_kb": null
           },
           "swhid": "swh:1:dir:53d793e1a86c17e1c120e8cf1d9cec788a5c360f"
@@ -1111,9 +1111,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.492,
+            "wall_ms_median": 27.396,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.492,
+            "cpu_ms_median": 27.396,
             "max_rss_kb": null
           },
           "swhid": "swh:2:dir:4fd288829483b6f50c616f044a7bdb4375f4d6178a71650208efead7725761c1"
@@ -1136,9 +1136,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 119.612,
+            "wall_ms_median": 111.524,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 119.612,
+            "cpu_ms_median": 111.524,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:9985c2da7ec2950ae93a4bc81d09bbe21ac3d423"
@@ -1180,9 +1180,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 56.378,
+            "wall_ms_median": 56.329,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 56.378,
+            "cpu_ms_median": 56.329,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:f72a5cda8a9e692733f28dd97f6a497789fe4f1a"
@@ -1224,9 +1224,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 84.782,
+            "wall_ms_median": 84.071,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 84.782,
+            "cpu_ms_median": 84.071,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:b1a1cb66e7a27f7a6b2424e953bd21d39c975f78"
@@ -1268,9 +1268,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 143.184,
+            "wall_ms_median": 141.925,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 143.184,
+            "cpu_ms_median": 141.925,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:3ed4bb336012f1b2fa16fbf57c55f90c29cdf173"
@@ -1312,9 +1312,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 83.995,
+            "wall_ms_median": 83.337,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 83.995,
+            "cpu_ms_median": 83.337,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:ef2430afbf4735f02b73c79bc4a53af6da5c6d18"
@@ -1356,9 +1356,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 84.981,
+            "wall_ms_median": 84.423,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 84.981,
+            "cpu_ms_median": 84.423,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:1109043ec17eeb3bf7d657689ab60336c901fde9"
@@ -1400,9 +1400,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 165.589,
+            "wall_ms_median": 164.957,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 165.589,
+            "cpu_ms_median": 164.957,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:8f0d48de532ad98671b25f6b069ee3003f46a505"
@@ -1444,9 +1444,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 56.766,
+            "wall_ms_median": 56.33,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 56.766,
+            "cpu_ms_median": 56.33,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:92683e1879de34dc894fa28d4854e9437257dee2"
@@ -1488,9 +1488,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 112.101,
+            "wall_ms_median": 111.909,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 112.101,
+            "cpu_ms_median": 111.909,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:d66db619f7d82b4bc6524810d045d731ae099ef7"
@@ -1532,9 +1532,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 56.067,
+            "wall_ms_median": 55.886,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 56.067,
+            "cpu_ms_median": 55.886,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:a08106ee77186a6657c1ac9214cda20e728e66a2"
@@ -1576,9 +1576,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 140.918,
+            "wall_ms_median": 140.414,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 140.918,
+            "cpu_ms_median": 140.414,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:9497c331aac82899611d1c2e9a0eef1d3c161c8d"
@@ -1620,9 +1620,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 183.968,
+            "wall_ms_median": 183.881,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 183.968,
+            "cpu_ms_median": 183.881,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:e44a647204ef944dd0fd28302a0d65124b93cd36"
@@ -1664,9 +1664,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 127.713,
+            "wall_ms_median": 125.989,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 127.713,
+            "cpu_ms_median": 125.989,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:604524a5decb4c927258eb4d9f5a121c48218bd4"
@@ -1695,7 +1695,7 @@
     {
       "id": "comprehensive_branch_develop",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:5e8a55e005e0003cd976ac876b2a598bf0d91362",
@@ -1708,9 +1708,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.9,
+            "wall_ms_median": 27.639,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.9,
+            "cpu_ms_median": 27.639,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:5e8a55e005e0003cd976ac876b2a598bf0d91362"
@@ -1721,9 +1721,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.915,
+            "wall_ms_median": 27.704,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.915,
+            "cpu_ms_median": 27.704,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:ce9977aecc562d66a1788ceea6085d1a9fdfe0e6ec624b55bfee5d37c8ed3d2e"
@@ -1733,7 +1733,7 @@
     {
       "id": "comprehensive_branch_feature-a",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764",
@@ -1741,37 +1741,37 @@
       },
       "results": [
         {
-          "implementation": "rust_v2",
-          "status": "PASS",
-          "error": null,
-          "metrics": {
-            "samples": 1,
-            "wall_ms_median": 27.401,
-            "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.401,
-            "max_rss_kb": null
-          },
-          "swhid": "swh:2:rev:be92c18a69f4061c1af3edcd55b1d65c2963db763cffd4129238a3f6ae9952ad"
-        },
-        {
           "implementation": "rust_v1",
           "status": "PASS",
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.681,
+            "wall_ms_median": 27.616,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.681,
+            "cpu_ms_median": 27.616,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764"
+        },
+        {
+          "implementation": "rust_v2",
+          "status": "PASS",
+          "error": null,
+          "metrics": {
+            "samples": 1,
+            "wall_ms_median": 27.799,
+            "wall_ms_mad": 0.0,
+            "cpu_ms_median": 27.799,
+            "max_rss_kb": null
+          },
+          "swhid": "swh:2:rev:be92c18a69f4061c1af3edcd55b1d65c2963db763cffd4129238a3f6ae9952ad"
         }
       ]
     },
     {
       "id": "comprehensive_branch_feature-b",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149",
@@ -1784,9 +1784,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.64,
+            "wall_ms_median": 27.384,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.64,
+            "cpu_ms_median": 27.384,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:30ab3f05fe4b048aa1d4b7b2cab384c1ba83b101ea25731aa015cf6c35362428"
@@ -1797,9 +1797,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.865,
+            "wall_ms_median": 27.885,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.865,
+            "cpu_ms_median": 27.885,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149"
@@ -1809,7 +1809,7 @@
     {
       "id": "comprehensive_branch_hotfix",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720",
@@ -1817,37 +1817,37 @@
       },
       "results": [
         {
-          "implementation": "rust_v2",
-          "status": "PASS",
-          "error": null,
-          "metrics": {
-            "samples": 1,
-            "wall_ms_median": 27.546,
-            "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.546,
-            "max_rss_kb": null
-          },
-          "swhid": "swh:2:rev:31f042943bb64a93323c18f5afd5a5f6d8c8cf8e70d07a14c78c361bc80db32b"
-        },
-        {
           "implementation": "rust_v1",
           "status": "PASS",
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.843,
+            "wall_ms_median": 29.483,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.843,
+            "cpu_ms_median": 29.483,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720"
+        },
+        {
+          "implementation": "rust_v2",
+          "status": "PASS",
+          "error": null,
+          "metrics": {
+            "samples": 1,
+            "wall_ms_median": 32.667,
+            "wall_ms_mad": 0.0,
+            "cpu_ms_median": 32.667,
+            "max_rss_kb": null
+          },
+          "swhid": "swh:2:rev:31f042943bb64a93323c18f5afd5a5f6d8c8cf8e70d07a14c78c361bc80db32b"
         }
       ]
     },
     {
       "id": "comprehensive_branch_main",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf",
@@ -1855,37 +1855,37 @@
       },
       "results": [
         {
-          "implementation": "rust_v2",
-          "status": "PASS",
-          "error": null,
-          "metrics": {
-            "samples": 1,
-            "wall_ms_median": 27.156,
-            "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.156,
-            "max_rss_kb": null
-          },
-          "swhid": "swh:2:rev:b511eaf5a579cc893da0464c4a555adfaa15bdf65dc337e5a140c80261b30bf4"
-        },
-        {
           "implementation": "rust_v1",
           "status": "PASS",
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.614,
+            "wall_ms_median": 34.304,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.614,
+            "cpu_ms_median": 34.304,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf"
+        },
+        {
+          "implementation": "rust_v2",
+          "status": "PASS",
+          "error": null,
+          "metrics": {
+            "samples": 1,
+            "wall_ms_median": 40.182,
+            "wall_ms_mad": 0.0,
+            "cpu_ms_median": 40.182,
+            "max_rss_kb": null
+          },
+          "swhid": "swh:2:rev:b511eaf5a579cc893da0464c4a555adfaa15bdf65dc337e5a140c80261b30bf4"
         }
       ]
     },
     {
       "id": "comprehensive_tag_v1.0.0",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4",
@@ -1893,37 +1893,37 @@
       },
       "results": [
         {
-          "implementation": "rust_v2",
-          "status": "PASS",
-          "error": null,
-          "metrics": {
-            "samples": 1,
-            "wall_ms_median": 25.689,
-            "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.689,
-            "max_rss_kb": null
-          },
-          "swhid": "swh:2:rel:fc5f81a1411b41556c6558845c5fe48efbe70f4a0a7dd6bd5a8b3c72a6228786"
-        },
-        {
           "implementation": "rust_v1",
           "status": "PASS",
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.38,
+            "wall_ms_median": 31.044,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.38,
+            "cpu_ms_median": 31.044,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4"
+        },
+        {
+          "implementation": "rust_v2",
+          "status": "PASS",
+          "error": null,
+          "metrics": {
+            "samples": 1,
+            "wall_ms_median": 37.919,
+            "wall_ms_mad": 0.0,
+            "cpu_ms_median": 37.919,
+            "max_rss_kb": null
+          },
+          "swhid": "swh:2:rel:fc5f81a1411b41556c6558845c5fe48efbe70f4a0a7dd6bd5a8b3c72a6228786"
         }
       ]
     },
     {
       "id": "comprehensive_tag_v1.0.1",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54",
@@ -1931,37 +1931,37 @@
       },
       "results": [
         {
-          "implementation": "rust_v2",
-          "status": "PASS",
-          "error": null,
-          "metrics": {
-            "samples": 1,
-            "wall_ms_median": 25.961,
-            "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.961,
-            "max_rss_kb": null
-          },
-          "swhid": "swh:2:rel:b7c9b8486f02e73cfc55a6aef25b8f1f95772a9b988f9f729184137b28762c56"
-        },
-        {
           "implementation": "rust_v1",
           "status": "PASS",
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.243,
+            "wall_ms_median": 31.78,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.243,
+            "cpu_ms_median": 31.78,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54"
+        },
+        {
+          "implementation": "rust_v2",
+          "status": "PASS",
+          "error": null,
+          "metrics": {
+            "samples": 1,
+            "wall_ms_median": 38.877,
+            "wall_ms_mad": 0.0,
+            "cpu_ms_median": 38.877,
+            "max_rss_kb": null
+          },
+          "swhid": "swh:2:rel:b7c9b8486f02e73cfc55a6aef25b8f1f95772a9b988f9f729184137b28762c56"
         }
       ]
     },
     {
       "id": "comprehensive_tag_v1.1.0",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a",
@@ -1969,37 +1969,37 @@
       },
       "results": [
         {
-          "implementation": "rust_v2",
-          "status": "PASS",
-          "error": null,
-          "metrics": {
-            "samples": 1,
-            "wall_ms_median": 25.791,
-            "wall_ms_mad": 0.0,
-            "cpu_ms_median": 25.791,
-            "max_rss_kb": null
-          },
-          "swhid": "swh:2:rel:a6423cd273e7af6554423736f950e831969e2f39c725dde857cb30222105c2ca"
-        },
-        {
           "implementation": "rust_v1",
           "status": "PASS",
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.234,
+            "wall_ms_median": 32.253,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.234,
+            "cpu_ms_median": 32.253,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a"
+        },
+        {
+          "implementation": "rust_v2",
+          "status": "PASS",
+          "error": null,
+          "metrics": {
+            "samples": 1,
+            "wall_ms_median": 40.916,
+            "wall_ms_mad": 0.0,
+            "cpu_ms_median": 40.916,
+            "max_rss_kb": null
+          },
+          "swhid": "swh:2:rel:a6423cd273e7af6554423736f950e831969e2f39c725dde857cb30222105c2ca"
         }
       ]
     },
     {
       "id": "comprehensive_tag_v2.0.0",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f",
@@ -2012,9 +2012,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.168,
+            "wall_ms_median": 26.532,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.168,
+            "cpu_ms_median": 26.532,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f"
@@ -2025,9 +2025,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.206,
+            "wall_ms_median": 26.564,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.206,
+            "cpu_ms_median": 26.564,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:f0fbfaaa8972a49fce82dfc62c1d97592cf2c62faca5adb1e0c0e227655d6068"
@@ -2037,7 +2037,7 @@
     {
       "id": "comprehensive_tag_v2.1.0",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_8eeqoth3/comprehensive",
+      "payload_ref": "/tmp/swhid_test_fifnxp63/comprehensive",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39",
@@ -2050,9 +2050,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.477,
+            "wall_ms_median": 27.585,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.477,
+            "cpu_ms_median": 27.585,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:b071c1d398f3d7fb9c3fce176b4993a4f38f897b42db2bc9bdbda5e09ad97216"
@@ -2063,9 +2063,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.768,
+            "wall_ms_median": 30.537,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.768,
+            "cpu_ms_median": 30.537,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39"
@@ -2088,9 +2088,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 99.385,
+            "wall_ms_median": 100.876,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 99.385,
+            "cpu_ms_median": 100.876,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:5c9c3c9be880d0ac89707304017006716d6749a6"
@@ -2132,9 +2132,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 161.217,
+            "wall_ms_median": 167.91,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 161.217,
+            "cpu_ms_median": 167.91,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:1a358894eaa5f6f9727168d9280e992af1a076b4"
@@ -2163,11 +2163,11 @@
     {
       "id": "signed_revisions_branch_main",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_u243y_zo/signed_revisions",
+      "payload_ref": "/tmp/swhid_test_9623e4sn/signed_revisions",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe",
-        "expected_swhid_sha256": "swh:2:rev:b51ecde97406aebceca175fb142d7c7a8d8365e858d0cf57eca7d83a2d87fde6"
+        "expected_swhid_sha256": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3"
       },
       "results": [
         {
@@ -2176,38 +2176,22 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.905,
+            "wall_ms_median": 27.808,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.905,
+            "cpu_ms_median": 27.808,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3",
-              "expected": "swh:2:rev:b51ecde97406aebceca175fb142d7c7a8d8365e858d0cf57eca7d83a2d87fde6"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:rev:b51ecde97406aebceca175fb142d7c7a8d8365e858d0cf57eca7d83a2d87fde6",
-                "actual": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.959,
+            "wall_ms_median": 27.83,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.959,
+            "cpu_ms_median": 27.83,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3"
@@ -2217,11 +2201,11 @@
     {
       "id": "signed_revisions_branch_signed-feature",
       "category": "unknown",
-      "payload_ref": "/tmp/swhid_test_u243y_zo/signed_revisions",
+      "payload_ref": "/tmp/swhid_test_9623e4sn/signed_revisions",
       "expected": {
         "reference_impl": "python-swhid",
         "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe",
-        "expected_swhid_sha256": "swh:2:rev:b51ecde97406aebceca175fb142d7c7a8d8365e858d0cf57eca7d83a2d87fde6"
+        "expected_swhid_sha256": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3"
       },
       "results": [
         {
@@ -2230,38 +2214,22 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.952,
+            "wall_ms_median": 28.588,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.952,
+            "cpu_ms_median": 28.588,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
         },
         {
           "implementation": "rust_v2",
-          "status": "FAIL",
-          "error": {
-            "code": "MISMATCH_ERROR",
-            "subtype": "swhid",
-            "message": "SWHID mismatch",
-            "context": {
-              "got": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3",
-              "expected": "swh:2:rev:b51ecde97406aebceca175fb142d7c7a8d8365e858d0cf57eca7d83a2d87fde6"
-            },
-            "diff": [
-              {
-                "path": "/swhid",
-                "expected": "swh:2:rev:b51ecde97406aebceca175fb142d7c7a8d8365e858d0cf57eca7d83a2d87fde6",
-                "actual": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3",
-                "category": "value_mismatch"
-              }
-            ]
-          },
+          "status": "PASS",
+          "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.955,
+            "wall_ms_median": 29.51,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.955,
+            "cpu_ms_median": 29.51,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3"
@@ -2284,9 +2252,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 68.877,
+            "wall_ms_median": 68.29,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 68.877,
+            "cpu_ms_median": 68.29,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:2f1450c1be7a6945b69d2c3724ac30a3be025e92"
@@ -2328,9 +2296,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 126.602,
+            "wall_ms_median": 130.274,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 126.602,
+            "cpu_ms_median": 130.274,
             "max_rss_kb": null
           },
           "swhid": "swh:1:snp:98a720761e59ff1704a84b38e0f3f683a6c2d5d9"
@@ -2372,9 +2340,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 28.215,
+            "wall_ms_median": 26.149,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 28.215,
+            "cpu_ms_median": 26.149,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:976993709ac2245f5128a5205653b26eab703fe1"
@@ -2385,9 +2353,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.417,
+            "wall_ms_median": 26.088,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.417,
+            "cpu_ms_median": 26.088,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:a0975e97ce4a44b9ebacae96a1c29bd540795a3e3d0f139271c79f89816a3220"
@@ -2410,9 +2378,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.552,
+            "wall_ms_median": 25.994,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.552,
+            "cpu_ms_median": 25.994,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:a7c9921fab18efe11882532bdf751f44a704917a"
@@ -2423,9 +2391,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.126,
+            "wall_ms_median": 26.835,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.126,
+            "cpu_ms_median": 26.835,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:df586c70b4508d7ddb09ed154ca543086b2b143295caece2c0d3cf10661e9df6"
@@ -2448,9 +2416,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 89.445,
+            "wall_ms_median": 88.573,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 89.445,
+            "cpu_ms_median": 88.573,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:5286f13487f495993f96ae05b33d10f5f93b82f4"
@@ -2461,9 +2429,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 89.138,
+            "wall_ms_median": 88.148,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 89.138,
+            "cpu_ms_median": 88.148,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:fc5f81a1411b41556c6558845c5fe48efbe70f4a0a7dd6bd5a8b3c72a6228786"
@@ -2486,9 +2454,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 78.995,
+            "wall_ms_median": 78.878,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 78.995,
+            "cpu_ms_median": 78.878,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:bce2af7aab2b64d3198976a83cefffcd6f5b8f54"
@@ -2499,9 +2467,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 79.158,
+            "wall_ms_median": 77.677,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 79.158,
+            "cpu_ms_median": 77.677,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:b7c9b8486f02e73cfc55a6aef25b8f1f95772a9b988f9f729184137b28762c56"
@@ -2524,9 +2492,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 79.267,
+            "wall_ms_median": 81.078,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 79.267,
+            "cpu_ms_median": 81.078,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:00f5b371d166cff902716f88c59e97eb21d18a7a"
@@ -2537,9 +2505,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 78.955,
+            "wall_ms_median": 80.602,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 78.955,
+            "cpu_ms_median": 80.602,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:a6423cd273e7af6554423736f950e831969e2f39c725dde857cb30222105c2ca"
@@ -2562,9 +2530,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 79.539,
+            "wall_ms_median": 77.938,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 79.539,
+            "cpu_ms_median": 77.938,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:eb40be8808a4c33f3d3daab634344b673996a49f"
@@ -2575,9 +2543,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 79.327,
+            "wall_ms_median": 76.281,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 79.327,
+            "cpu_ms_median": 76.281,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:f0fbfaaa8972a49fce82dfc62c1d97592cf2c62faca5adb1e0c0e227655d6068"
@@ -2600,9 +2568,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 90.658,
+            "wall_ms_median": 80.097,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 90.658,
+            "cpu_ms_median": 80.097,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:edaf91f706742fcb19591f59b5397b0a7a09ac39"
@@ -2613,9 +2581,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 90.866,
+            "wall_ms_median": 80.569,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 90.866,
+            "cpu_ms_median": 80.569,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:b071c1d398f3d7fb9c3fce176b4993a4f38f897b42db2bc9bdbda5e09ad97216"
@@ -2638,9 +2606,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 43.757,
+            "wall_ms_median": 44.158,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 43.757,
+            "cpu_ms_median": 44.158,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:d6bc712db2ffad219e410155850770f2a6f80566"
@@ -2682,9 +2650,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 44.351,
+            "wall_ms_median": 43.874,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 44.351,
+            "cpu_ms_median": 43.874,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:90b798f42ee8c20dc94b119fc4139b79a03c3b7e"
@@ -2726,9 +2694,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 45.702,
+            "wall_ms_median": 44.208,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 45.702,
+            "cpu_ms_median": 44.208,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:dc4a4d4c9110311ff03e0a6f218ecfcb3247ac0b"
@@ -2770,9 +2738,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 57.598,
+            "wall_ms_median": 56.944,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 57.598,
+            "cpu_ms_median": 56.944,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rel:302822701a46791d97f5e372255b7db078a342e2"
@@ -2783,9 +2751,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 57.814,
+            "wall_ms_median": 55.693,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 57.814,
+            "cpu_ms_median": 55.693,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rel:2aebb765fa34bae3b2cf2acd74ced472baa4a962da2f960ef9bcd5aa0b0519e1"
@@ -2808,9 +2776,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 87.867,
+            "wall_ms_median": 80.268,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 87.867,
+            "cpu_ms_median": 80.268,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:870dcb724e95453ab9dd2f4a58f98aeb0dcb7764"
@@ -2821,9 +2789,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 86.909,
+            "wall_ms_median": 79.769,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 86.909,
+            "cpu_ms_median": 79.769,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:be92c18a69f4061c1af3edcd55b1d65c2963db763cffd4129238a3f6ae9952ad"
@@ -2846,9 +2814,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 87.387,
+            "wall_ms_median": 80.389,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 87.387,
+            "cpu_ms_median": 80.389,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:229740cdc7665b5718e34e04a59fd9e981f2c149"
@@ -2859,9 +2827,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 86.992,
+            "wall_ms_median": 80.33,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 86.992,
+            "cpu_ms_median": 80.33,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:30ab3f05fe4b048aa1d4b7b2cab384c1ba83b101ea25731aa015cf6c35362428"
@@ -2884,9 +2852,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 82.152,
+            "wall_ms_median": 80.339,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 82.152,
+            "cpu_ms_median": 80.339,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:bfe454d11532e851d36ac5c2c014f12a19c9f720"
@@ -2897,9 +2865,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 81.867,
+            "wall_ms_median": 79.651,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 81.867,
+            "cpu_ms_median": 79.651,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:31f042943bb64a93323c18f5afd5a5f6d8c8cf8e70d07a14c78c361bc80db32b"
@@ -2922,9 +2890,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 87.328,
+            "wall_ms_median": 79.892,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 87.328,
+            "cpu_ms_median": 79.892,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:997cc01b55bd38cbcc49f113c9f796e528559adf"
@@ -2935,9 +2903,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 87.356,
+            "wall_ms_median": 78.942,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 87.356,
+            "cpu_ms_median": 78.942,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:b511eaf5a579cc893da0464c4a555adfaa15bdf65dc337e5a140c80261b30bf4"
@@ -2960,9 +2928,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 28.002,
+            "wall_ms_median": 27.384,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 28.002,
+            "cpu_ms_median": 27.384,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:d8693ad0daffe017605f67d723b66e0c213035cb"
@@ -2973,9 +2941,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 28.012,
+            "wall_ms_median": 27.428,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 28.012,
+            "cpu_ms_median": 27.428,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:1fb7e07aafd2e63bb17a5b4ff3e5ee2f9f94b089e04570ca9d3bc52a7ead7323"
@@ -2998,9 +2966,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 68.425,
+            "wall_ms_median": 63.243,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 68.425,
+            "cpu_ms_median": 63.243,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:b644fc71fa76537858cb421f5bc6fd2f0f475d88"
@@ -3011,9 +2979,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 68.127,
+            "wall_ms_median": 63.001,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 68.127,
+            "cpu_ms_median": 63.001,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:e8aae6674be44e7cc053c574ad6b69d2622d2c8ba2fa43f085c6209bc1850a29"
@@ -3036,9 +3004,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 28.612,
+            "wall_ms_median": 27.708,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 28.612,
+            "cpu_ms_median": 27.708,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:395d056259d91ef412349c5f6bc8273724e82d4b"
@@ -3049,9 +3017,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 27.851,
+            "wall_ms_median": 27.466,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 27.851,
+            "cpu_ms_median": 27.466,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:3ef41f06d867417af32690b178be0a11e7cdc80b944644b0f874c12fb9339d2e"
@@ -3074,9 +3042,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 62.322,
+            "wall_ms_median": 61.594,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 62.322,
+            "cpu_ms_median": 61.594,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -3087,9 +3055,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 61.982,
+            "wall_ms_median": 61.63,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 61.982,
+            "cpu_ms_median": 61.63,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3"
@@ -3112,9 +3080,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 68.142,
+            "wall_ms_median": 62.527,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 68.142,
+            "cpu_ms_median": 62.527,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:8a1241cc9d81178d7c1c29201354b2cb309601fe"
@@ -3125,9 +3093,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 67.756,
+            "wall_ms_median": 61.584,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 67.756,
+            "cpu_ms_median": 61.584,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:26be30e69cec790ad80df1486c709230b18670f1ca573b6dc61be9c8697225f3"
@@ -3150,9 +3118,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.572,
+            "wall_ms_median": 25.939,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.572,
+            "cpu_ms_median": 25.939,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:395d056259d91ef412349c5f6bc8273724e82d4b"
@@ -3163,9 +3131,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 26.262,
+            "wall_ms_median": 25.936,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 26.262,
+            "cpu_ms_median": 25.936,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:3ef41f06d867417af32690b178be0a11e7cdc80b944644b0f874c12fb9339d2e"
@@ -3188,9 +3156,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 63.349,
+            "wall_ms_median": 55.783,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 63.349,
+            "cpu_ms_median": 55.783,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:de1d62e55c7561f961a70ca57f1da6b3cf16fdb7"
@@ -3201,9 +3169,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 63.198,
+            "wall_ms_median": 54.922,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 63.198,
+            "cpu_ms_median": 54.922,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:cf37e2a69019225827ab62874dd612fbbe702fb9240871b9b1a5c3797d7b9b82"
@@ -3226,9 +3194,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 54.915,
+            "wall_ms_median": 54.199,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 54.915,
+            "cpu_ms_median": 54.199,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:b7fdd35912b16682ac6e989f75d41870a0f9d904"
@@ -3239,9 +3207,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 54.484,
+            "wall_ms_median": 54.449,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 54.484,
+            "cpu_ms_median": 54.449,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:39f389419c331aed831d9ec3bfbe579c43a1797da9657593044a80ac663dd2b3"
@@ -3264,9 +3232,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 62.536,
+            "wall_ms_median": 62.201,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 62.536,
+            "cpu_ms_median": 62.201,
             "max_rss_kb": null
           },
           "swhid": "swh:1:rev:b7fdd35912b16682ac6e989f75d41870a0f9d904"
@@ -3277,9 +3245,9 @@
           "error": null,
           "metrics": {
             "samples": 1,
-            "wall_ms_median": 62.889,
+            "wall_ms_median": 61.342,
             "wall_ms_mad": 0.0,
-            "cpu_ms_median": 62.889,
+            "cpu_ms_median": 61.342,
             "max_rss_kb": null
           },
           "swhid": "swh:2:rev:39f389419c331aed831d9ec3bfbe579c43a1797da9657593044a80ac663dd2b3"
@@ -3300,8 +3268,8 @@
         "skipped": 0
       },
       "rust_v2": {
-        "passed": 59,
-        "failed": 2,
+        "passed": 61,
+        "failed": 0,
         "skipped": 20
       }
     }
