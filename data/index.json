@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T19:08:40Z",
+  "last_updated": "2026-03-01T21:00:05Z",
   "total_runs": 3,
   "total_tests": 243,
   "total_results": 486,
@@ -10,21 +10,11 @@
   "overall_fail_rate": 0.0,
   "overall_skip_rate": 12.35,
   "implementations": [
-    "rust",
     "rust_v1",
     "rust_v2"
   ],
   "platform_stats": {
     "Windows": {
-      "total": 162,
-      "passed": 142,
-      "failed": 0,
-      "skipped": 20,
-      "pass_rate": 87.65,
-      "fail_rate": 0.0,
-      "skip_rate": 12.35
-    },
-    "macOS": {
       "total": 162,
       "passed": 142,
       "failed": 0,
@@ -41,33 +31,42 @@
       "pass_rate": 87.65,
       "fail_rate": 0.0,
       "skip_rate": 12.35
+    },
+    "macOS": {
+      "total": 162,
+      "passed": 142,
+      "failed": 0,
+      "skipped": 20,
+      "pass_rate": 87.65,
+      "fail_rate": 0.0,
+      "skip_rate": 12.35
     }
   },
   "impl_platform_matrix": {
     "rust_v1": {
       "macOS": {
-        "passed": 61,
+        "passed": 81,
         "failed": 0,
         "skipped": 0,
-        "total": 61,
+        "total": 81,
         "pass_rate": 100.0,
         "fail_rate": 0.0,
         "skip_rate": 0.0
       },
       "Ubuntu": {
-        "passed": 61,
+        "passed": 81,
         "failed": 0,
         "skipped": 0,
-        "total": 61,
+        "total": 81,
         "pass_rate": 100.0,
         "fail_rate": 0.0,
         "skip_rate": 0.0
       },
       "Windows": {
-        "passed": 61,
+        "passed": 81,
         "failed": 0,
         "skipped": 0,
-        "total": 61,
+        "total": 81,
         "pass_rate": 100.0,
         "fail_rate": 0.0,
         "skip_rate": 0.0
@@ -101,41 +100,12 @@
         "fail_rate": 0.0,
         "skip_rate": 24.69
       }
-    },
-    "rust": {
-      "macOS": {
-        "passed": 20,
-        "failed": 0,
-        "skipped": 0,
-        "total": 20,
-        "pass_rate": 100.0,
-        "fail_rate": 0.0,
-        "skip_rate": 0.0
-      },
-      "Ubuntu": {
-        "passed": 20,
-        "failed": 0,
-        "skipped": 0,
-        "total": 20,
-        "pass_rate": 100.0,
-        "fail_rate": 0.0,
-        "skip_rate": 0.0
-      },
-      "Windows": {
-        "passed": 20,
-        "failed": 0,
-        "skipped": 0,
-        "total": 20,
-        "pass_rate": 100.0,
-        "fail_rate": 0.0,
-        "skip_rate": 0.0
-      }
     }
   },
   "runs": [
     {
-      "id": "2026-02-26T19-08-02Z_d86bc9",
-      "created_at": "2026-02-26T19:08:02.450340Z",
+      "id": "2026-03-01T20-59-24Z_c1b46a",
+      "created_at": "2026-03-01T20:59:24.822122Z",
       "branch": "main",
       "commit": "unknown",
       "platform": "Windows",
@@ -148,11 +118,11 @@
       "skipped_rate": 12.35
     },
     {
-      "id": "2026-02-26T19-03-31Z_68c6aa",
-      "created_at": "2026-02-26T19:03:31.416421Z",
+      "id": "2026-03-01T20-54-42Z_5e4396",
+      "created_at": "2026-03-01T20:54:42.817431Z",
       "branch": "main",
       "commit": "unknown",
-      "platform": "macOS",
+      "platform": "Ubuntu",
       "pass_rate": 87.65,
       "passed": 142,
       "failed": 0,
@@ -162,11 +132,11 @@
       "skipped_rate": 12.35
     },
     {
-      "id": "2026-02-26T19-03-16Z_2ac15e",
-      "created_at": "2026-02-26T19:03:16.294293Z",
+      "id": "2026-03-01T20-54-35Z_d38bd2",
+      "created_at": "2026-03-01T20:54:35.746506Z",
       "branch": "main",
       "commit": "unknown",
-      "platform": "Ubuntu",
+      "platform": "macOS",
       "pass_rate": 87.65,
       "passed": 142,
       "failed": 0,
